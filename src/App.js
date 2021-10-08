@@ -1,12 +1,14 @@
 
 import './App.css';
+import logof from "./images/f.png";
+import Landingpage from "./components/LandingPage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Food Bargain</h1>
-    </div>
+   <Landingpage />
   );
 }
 
 export default App;
+
+

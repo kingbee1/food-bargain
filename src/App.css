@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* Vector */
+.logo {
+ text-align: center;
+} 
+
+.img{
+position: absolute;
+left: 0%;
+right: 73.43%;
+top: 0%;
+bottom: 33.83%;
+
+/* Food Bargain/Main/Primary */
+background: #1CB02D;
 }
