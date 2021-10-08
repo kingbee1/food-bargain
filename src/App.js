@@ -1,11 +1,10 @@
 
 import './App.css';
-import logof from "./images/f.png";
-import Landingpage from "./components/LandingPage";
+import Navbar from './components/Landingpage/Navbar';
 
 function App() {
   return (
-   <Landingpage />
+   <Navbar />
   );
 }
 
