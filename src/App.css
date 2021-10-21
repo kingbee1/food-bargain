@@ -1,21 +1,50 @@
-.top{
-  position: absolute;
-  width: 503px;
-  height: 19px;
-  left: 349px;
-  top: 2px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  color: #252522;
+*{
+  padding: 0px;
+  margin: 0px;
 }
 
-.logo {
- text-align: center;
- position: relative;
- top:20px;
+@font-face {
+  font-family: gil;
+  src: url("./fonts/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: gilo;
+  src: url("./fonts/Gilroy-Light.otf");
+}
+
+.top{
+  position: absolute;
+  width: 1200px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+  color: #f5fee6;
+}
+
+.top-case{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 19px;
+    text-transform: uppercase;
+    background: #F5FEE6;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #252522;
+}
+
+.logo img {
+  position: relative;
+  text-align: center;
+  width: 181px;
+  margin-left: 497px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+
 } 
 
 .img{
@@ -27,35 +56,15 @@ bottom: 33.83%;
 background: #1CB02D;
 }
 
-.logo-2{
-  padding-top: 18px;
-}
 
-/* .oologo{
-  position: absolute;
-  left: 47.71%;
-  right: 22.85%;
-  top: 27.77%;
-  bottom: 40.73%;
-  background: #1CB02D;
-} */
-
-.dot{
-  position: absolute;
-  left: 583px;
-}
-
-.img {
+/* .img {
 position: absolute;
 left: 10.33%;
 right: 80.01%;
 top: 69.82%;
 bottom: 8.57%;
-
-/* Food Bargain/Main/Tertiary */
-
 background: #252522;
-}
+} */
 
 .search {
   position: absolute;
@@ -77,38 +86,42 @@ background: #252522;
 
 .food-search input {
   left: 40px;
-  font: gilroy;
+  font: 'gil', sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
 
 ::placeholder {
-  padding-left: 12px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 24px;
+  font-family: 'gilo', 'roboto', 'Arial Narrow', Arial, sans-serif;
+  color:#1CB02D;
 }
 
 .search-icon {
   position: absolute;
-  left: 11.57%;
+  left: -5px;
+  margin-right: 2px;
   right: 13.52%;
   top: 11.58%;
   bottom: 13.52%;
   
   /* Food Bargain/Main/Primary */
   
-  border: 1.5px solid #1CB02D;
+  border: none;
 }
 
-.FiSearch {
+
+/* .FiSearch {
   color: black;
   position: absolute;
   left:11px;
-}
+} */
 
 .cart{
   position: absolute;
-  right: 40px;
-  top: 29px;
+  right: 24px;
+  top: 85px;
+  display: flex;
 }
 
 .cart li {
@@ -117,10 +130,80 @@ background: #252522;
   list-style: none;
   color: #1CB02D;
   font-size: 14px;
+  cursor: pointer;
+}
+.cart RiShoppingCartLine {
+  color: #1CB02D;
 }
 
-/* display: flex;
+.cart-user{
+  color: #1CB02D;
+}
+
+.cart-icon{
+  color: #1CB02D;
+}
+.below-nav{
+  position: absolute;
+  right: 391px;
+  top: 139px;
+  display: flex;
+}
+
+.below-nav li{
+  
+  display:inline-flex;
+
+  margin: 0 12px;
   top:45px;
   list-style: none;
-  justify-content: space-evenly;
-  color: #1CB02D; */
+  font-weight: bold;
+  cursor: pointer;
+  color: #1CB02D;
+}
+
+div.below-nav {
+  display:flex;
+  margin-top: 34px;
+  left: 377px;
+  width: 38%;
+  justify-content: space-between;
+  font-weight: bold;
+  font-family: 'gil', sans-serif;
+  font-size: 19px;
+  cursor: pointer;
+  color: #1CB02D;
+}
+
+/* .shit{
+  margin-top: 120px;
+  
+} */
+.hero-side{
+  /* position: absolute; */
+  width: 35%;
+  height: 180px;
+  margin-left: 35px;
+  margin-top: 22px;
+  font-family: 'gil', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.side p{
+  position: absolute;
+  width: 30%;
+  height: 108px;
+  left: 40px;
+  top: 394px;
+  font-family: 'gilo', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: #252522;
+}
+
+.p-green {
+  color: #1CB02D !important;
+}
