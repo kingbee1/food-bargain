@@ -47,25 +47,6 @@
 
 } 
 
-.img{
-position: absolute;
-left: 0%;
-right: 73.43%;
-top: 0%;
-bottom: 33.83%;
-background: #1CB02D;
-}
-
-
-/* .img {
-position: absolute;
-left: 10.33%;
-right: 80.01%;
-top: 69.82%;
-bottom: 8.57%;
-background: #252522;
-} */
-
 .search {
   position: absolute;
   left: 39px;
@@ -182,7 +163,7 @@ div.below-nav {
 .hero-side{
   /* position: absolute; */
   width: 35%;
-  height: 180px;
+  line-height: 46px;
   margin-left: 35px;
   margin-top: 22px;
   font-family: 'gil', sans-serif;
@@ -207,3 +188,55 @@ div.below-nav {
 .p-green {
   color: #1CB02D !important;
 }
+
+/* .hero-right{
+
+  
+} */
+/* 
+.hero-image1 {
+  width: 181px;
+  margin-left: 647px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+} */
+
+.hero-image1 img {
+
+  /* display: flex; */
+  margin-left: 363px;
+  margin-top: -133px;
+  width: 12%;
+  justify-content: space-between;
+}
+
+.hero-image2 img {
+
+  /* display: flex; */
+  margin-left: 618px;
+  margin-top: 4px;
+  width: 12%;
+  justify-content: center;
+}
+
+.food-picture {
+  width: 50%;
+  float: right;
+}
+
+.food-picture img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+ /* position: relative;
+  text-align: center;
+  width: 181px;
+  margin-left: 497px;
+  margin-top: 40px;
+  margin-bottom: 70px; */
