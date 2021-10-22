@@ -12,13 +12,19 @@
   font-family: gilo;
   src: url("./fonts/Gilroy-Light.otf");
 }
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center
+}
 
 .top{
   position: absolute;
-  width: 1200px;
-  height: 35px;
-  left: 0px;
-  top: 0px;
+  width: 100%;
   color: #f5fee6;
 }
 
@@ -30,7 +36,6 @@
     text-transform: uppercase;
     background: #F5FEE6;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
@@ -156,27 +161,24 @@ div.below-nav {
   color: #1CB02D;
 }
 
-/* .shit{
-  margin-top: 120px;
-  
-} */
 .hero-side{
-  /* position: absolute; */
-  width: 35%;
-  line-height: 46px;
-  margin-left: 35px;
-  margin-top: 22px;
+
   font-family: 'gil', sans-serif;
   font-weight: 600;
   font-size: 40px;
 }
 
-.side p{
-  position: absolute;
-  width: 30%;
+.eat-more{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.eat-more .child{
+  width: 45%;
+}
+
+.eat-more p{
   height: 108px;
-  left: 40px;
-  top: 394px;
   font-family: 'gilo', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -189,34 +191,54 @@ div.below-nav {
   color: #1CB02D !important;
 }
 
-/* .hero-right{
-
-  
-} */
-/* 
-.hero-image1 {
-  width: 181px;
-  margin-left: 647px;
-  margin-top: 40px;
-  margin-bottom: 70px;
-} */
-
 .hero-image1 img {
-
-  /* display: flex; */
+/* 
   margin-left: 363px;
   margin-top: -133px;
   width: 12%;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 .hero-image2 img {
 
   /* display: flex; */
-  margin-left: 618px;
+  /* margin-left: 618px;
   margin-top: 4px;
   width: 12%;
-  justify-content: center;
+  justify-content: center; */
+}
+
+.feature {
+
+  background: #F5FEE6;
+}
+.feature-text{
+  font-family: 'gil';
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.feature-p {
+display: flex;
+}
+
+.feature-pic1 img {
+  width: 240px;
+  text-align: center;
+}
+
+.feature-pic2 img {
+  width: 240px;
+}
+
+.feature-pic3 img {
+  width: 240px;
+  margin-right: 30px;
+}
+
+.feature-pic4 img {
+  width: 240px; 
 }
 
 .food-picture {
@@ -228,15 +250,3 @@ div.below-nav {
   width: 100%;
 }
 
-
-
-
-
-
-
- /* position: relative;
-  text-align: center;
-  width: 181px;
-  margin-left: 497px;
-  margin-top: 40px;
-  margin-bottom: 70px; */
