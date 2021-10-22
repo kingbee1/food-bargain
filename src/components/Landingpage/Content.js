@@ -6,6 +6,7 @@ import food1 from '../../images/food1.png'
 import food2 from '../../images/food2.png'
 import food3 from '../../images/food3.png'
 import food4 from '../../images/food4.png'
+import babyfood from '../../images/babyfood.png'
 
 
 const Hero = () => {
@@ -32,7 +33,7 @@ const Hero = () => {
                 </div>
             </div> 
           <section className="feature">
-            <p className="feature-text">Trending food</p>
+            <p className="feature-text">Trending Restaurants</p>
             <div className="flex justify-between">
                 <div className="feature-pic1">
                     <img src={food1} alt="food" />
@@ -50,9 +51,18 @@ const Hero = () => {
                     <img src={food4} alt="food" />
                     <p>Ben's Bistro</p>
                 </div>
-              
             </div>
           </section>
+            <div className="reward flex justify-between">
+                <div>
+                    <img src={babyfood} alt="" />
+                </div>
+                <div className="reward2">
+                    <p className="r2">Members get exclusive rewards</p>
+                    <p className="r3">Become a member and get even more food for less.</p>
+                    <button>Sign up Now</button>
+                </div>
+            </div>
         </div>
     )
 

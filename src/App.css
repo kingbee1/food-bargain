@@ -191,32 +191,20 @@ div.below-nav {
   color: #1CB02D !important;
 }
 
-.hero-image1 img {
-/* 
-  margin-left: 363px;
-  margin-top: -133px;
-  width: 12%;
-  justify-content: space-between; */
-}
 
-.hero-image2 img {
-
-  /* display: flex; */
-  /* margin-left: 618px;
-  margin-top: 4px;
-  width: 12%;
-  justify-content: center; */
-}
 
 .feature {
-
   background: #F5FEE6;
 }
+
 .feature-text{
   font-family: 'gil';
   font-weight: bold;
-  font-size: 28px;
+  font-size: 21px;
   line-height: 34px;
+  padding-left: 40%;
+  padding-bottom: 13px;
+  margin-top: 45px;
 }
 
 .feature-p {
@@ -241,12 +229,14 @@ display: flex;
   width: 240px; 
 }
 
-.food-picture {
+.reward {
+  margin-top: 70px;
+}
+
+.reward img {
+  width: 95%;
+}
+
+.reward2 {
   width: 50%;
-  float: right;
 }
-
-.food-picture img {
-  width: 100%;
-}
-
