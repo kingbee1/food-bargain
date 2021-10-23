@@ -135,15 +135,10 @@
   display: flex;
 }
 
-.below-nav li{
-  
-  display:inline-flex;
 
-  margin: 0 12px;
-  top:45px;
-  list-style: none;
-  font-weight: bold;
-  cursor: pointer;
+
+.below-nav a{
+  text-decoration: none;
   color: #1CB02D;
 }
 
@@ -269,6 +264,7 @@ display: flex;
    margin-top: 74px;
    padding: 12px 12px;
    background: #F5FEE6;
+   font-family: 'gil';
 } 
 
 .title {
