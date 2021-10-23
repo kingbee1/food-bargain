@@ -63,6 +63,46 @@ const Hero = () => {
                     <button className="btn">Sign up Now</button>
                 </div>
             </div>
+            <div className="carou">
+                <p className="title"> Oops! You just missed it</p>
+                <div className="flex justify-between">
+                    <div>
+                        <img src={food1} alt="food" />
+                        <p>Stir Fry Noodles</p>
+                        <p>N 5,400</p>
+                    </div>
+                    <div>
+                        <img src={food2} alt="food" />
+                        <p>Stir Fry Noodles</p>
+                        <p>N 5,400</p>
+                    </div>
+                    <div>
+                        <img src={food3} alt="food" />
+                        <p>Stir Fry Noodles</p>
+                        <p>N 5,400</p>
+                    </div>
+                    <div>
+                        <img src={food4} alt="food" />
+                        <p>Stir Fry Noodles</p>
+                        <p>N 5,400</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <div className="blog flex justify-between">
+                <div>
+                    <p className="blog1">Food Bargains <span className="p-green">blog</span></p>
+                    <p className="blog2">Specially curated and relevant stories on food waste management and its environmental impacts to keep you quite as committed as we are to the fight against food waste. </p>
+                    <p className="blog3 p-green">Check it out >>></p>
+                </div>
+                <div>
+                    <div className="test"></div>
+                    <div className="blog-right">
+                    <img src={food1} alt="bargains" />    
+                    <p className="right1">Ssaving the world, one meal at a time</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 
