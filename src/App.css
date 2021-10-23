@@ -504,21 +504,16 @@ display: flex;
   padding: 20px 0px 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.footer{
+  padding-right: 40px;
+  padding-left: 40px;
+}
 
 .footer img {
   width: 107px;
+  /* text-align: center;
+  margin: auto; */
+  /* margin-left: 40px; */
 }
 
 
