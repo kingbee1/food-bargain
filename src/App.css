@@ -22,6 +22,10 @@
   justify-content: center
 }
 
+.p-green {
+  color: #1CB02D !important;
+}
+
 .top{
   position: absolute;
   width: 100%;
@@ -49,7 +53,6 @@
   margin-left: 497px;
   margin-top: 40px;
   margin-bottom: 70px;
-
 } 
 
 .search {
@@ -90,18 +93,8 @@
   right: 13.52%;
   top: 11.58%;
   bottom: 13.52%;
-  
-  /* Food Bargain/Main/Primary */
-  
   border: none;
 }
-
-
-/* .FiSearch {
-  color: black;
-  position: absolute;
-  left:11px;
-} */
 
 .cart{
   position: absolute;
@@ -187,10 +180,6 @@ div.below-nav {
   color: #252522;
 }
 
-.p-green {
-  color: #1CB02D !important;
-}
-
 
 
 .feature {
@@ -266,7 +255,81 @@ display: flex;
   cursor: pointer;
   padding: 12px 72px;
   border-radius: 16px;
-  
   font-family: 'gil';
   color: #F5FEE6;
 }
+
+ .carou {
+   margin-top: 74px;
+   padding: 12px 12px;
+   background: #F5FEE6;
+} 
+
+.title {
+  font-family: 'gil';
+  padding-left: 45%;
+  padding-top: 34px;
+  padding-bottom: 16px;
+}
+
+.blog {
+  margin-top: 74px;
+  padding: 29px 72px;
+ 
+} 
+
+.blog1{
+  font-family: 'gil';
+  font-size: 39px;
+  padding-bottom: 10px;
+}
+
+.blog2{
+  font-family: 'inter';
+  font-size: 15px;
+  font-weight: 700;
+  width: 39%;
+  padding-bottom: 16px;
+}
+
+.blog3{
+  font-family: 'gil';
+  font-size: 16px;
+}
+
+.blog-right{
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  background: #116E1C;
+  border-radius: 10px;
+}
+
+.test {
+  padding-top: 3px;
+
+  padding-bottom: 3px;
+  background: pink;
+}
+
+.blog-right img {
+  width: 190px;
+}
+
+.right1 {
+  font-family: 'gil';
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
