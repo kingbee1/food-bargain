@@ -7,6 +7,7 @@ import food2 from '../../images/food2.png'
 import food3 from '../../images/food3.png'
 import food4 from '../../images/food4.png'
 import babyfood from '../../images/babyfood.png'
+import fight1 from '../../images/fight1.png'
 
 
 const Hero = () => {
@@ -93,14 +94,48 @@ const Hero = () => {
                 <div>
                     <p className="blog1">Food Bargains <span className="p-green">blog</span></p>
                     <p className="blog2">Specially curated and relevant stories on food waste management and its environmental impacts to keep you quite as committed as we are to the fight against food waste. </p>
-                    <p className="blog3 p-green">Check it out >>></p>
+                    <p className="blog3 p-green">Check it out >>> </p>
                 </div>
                 <div>
                     <div className="test"></div>
+                    <div className="test2"></div>
                     <div className="blog-right">
                     <img src={food1} alt="bargains" />    
-                    <p className="right1">Ssaving the world, one meal at a time</p>
+                    <p className="right1">Saving the world, one meal at a time</p>
                     </div>
+                </div>
+            </div>
+            <div className="base-container">
+            <p className="fight">Look what our food fighters have to say</p>
+            <div className="flex justify-between">
+            <div className="fight1">
+                <img src={fight1} alt="fff" />
+                <p className="fight-p">“Food Bargains literally has the best food deals!”</p>
+                <p className="center">Suso</p>
+            </div>
+            <div className="fight2">
+                <img src={fight1} alt="fff" />
+                <p className="fight-p">“Offering quality food for less is a super hero act.”</p>
+                <p className="center">Suso</p>
+            </div>
+            <div className="fight3">
+                <img src={fight1} alt="fff" />
+                <p className="fight-p">“Dining at a restaurant on a budget is unmatched!”</p>
+                <p className="center">Suso</p>
+            </div>
+            <div className="fight4">
+                <img src={fight1} alt="fff" />
+                <p className="fight-p">“Food from my business all gets sold out now.”</p>
+                <p className="center">Suso</p>
+            </div>
+            </div>
+            </div>
+            <div className="community">
+                <p className="community-p">Join our community</p>
+                <p className="community-p2">Sign up to be the first to get exclusive deals, personalised offers and knowledge you need to successfully manage food waste and save the environment.</p>
+                <div className="join flex justify-between">
+                    <input className="join-search" type="text" placeholder="Enter your email address" />
+                    <button className="join-btn">Subscribe</button>
                 </div>
             </div>
         </div>

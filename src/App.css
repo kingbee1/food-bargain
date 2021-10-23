@@ -26,6 +26,12 @@
   color: #1CB02D !important;
 }
 
+.center{
+  text-align: center;
+  font-family: 'gil';
+  padding-bottom: 20px;
+}
+
 .top{
   position: absolute;
   width: 100%;
@@ -191,7 +197,7 @@ div.below-nav {
   font-weight: bold;
   font-size: 21px;
   line-height: 34px;
-  padding-left: 40%;
+  text-align: center;
   padding-bottom: 13px;
   margin-top: 45px;
 }
@@ -267,7 +273,7 @@ display: flex;
 
 .title {
   font-family: 'gil';
-  padding-left: 45%;
+  text-align: center;
   padding-top: 34px;
   padding-bottom: 16px;
 }
@@ -303,14 +309,22 @@ display: flex;
   padding-left: 10px;
   padding-bottom: 30px;
   background: #116E1C;
-  border-radius: 10px;
+  border-radius: 11px;
 }
 
 .test {
-  padding-top: 3px;
-
-  padding-bottom: 3px;
-  background: pink;
+  width: 84%;
+  margin: auto;
+  padding:4px;
+  background: #dbebdc;
+  border-radius: 2px;
+}
+.test2 {
+  width: 90%;
+  margin: auto;
+  padding: 4px;
+  background: #a5d3aa;
+  border-radius: 2px;
 }
 
 .blog-right img {
@@ -324,10 +338,188 @@ display: flex;
   font-weight: 200;
 }
 
+.base-container{
+  margin-left: 35px;
+  padding-left: 10px;
+  margin-right: 35px;
+  padding-top: 50px;
+}
+
+.fight{
+  font-family: 'gil';
+  text-align: center;
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+
+.fight-p{
+  font-family: 'inter';
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  
+}
+
+.fight1{
+  background: #EEFF92;
+  margin-right: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 2px 4px #f1f0f0;
+}
+
+.fight1 img {
+  margin: auto;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.fight2{
+  background: #FEB434;
+  margin-right: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 2px 4px #f1f0f0;
+}
+
+.fight2 img {
+  margin: auto;
+  display: flex; 
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.fight3{
+  background: #EEFF92;
+   margin-right: 35px;
+   border-radius: 10px;
+   box-shadow: 5px 10px 2px 4px #f1f0f0;
+}
+.fight3 img {
+  margin: auto;
+ display: flex; 
+ padding-top: 50px;
+ padding-bottom: 15px;
+}
+
+.fight4{
+  background: #FEB434;
+    border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 2px 4px #f1f0f0;
+}
+
+.fight4 img {
+ margin: auto;
+ display: flex; 
+ padding-top: 50px;
+ padding-bottom: 15px;
+}
+
+.community {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url("./images/Logo.png");
+  background-color: #1CB02D;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+.community-p {
+  text-align: center;
+  font-family: 'gil';
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.community-p2 {
+  text-align: center;
+  margin: auto;
+  font-family: 'inter';
+  font-size: 14px;
+  width: 42%;
+  font-weight: 600;
+  padding-bottom: 25px;  
+  color: #fff;
+}
+
+.join {
+  width: 41%;
+  margin: auto;
+}
+
+.join-search{
+  border: none;
+  font-family: 'inter'; 
+  font-size: 12px;
+  font-weight: 600;
+  padding: 9px 39px;
+  border-radius: 11px;
+  color: #77776E;;
+}
+
+/* .join-search ::placeholder{
+  font-family: 'inter';
+  font-size: 44px;
+}  */
+
+.join-btn {
+  background: #FEB434;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 52px;
+  border-radius: 11px;
+  font-family: 'gil';
+  color: #F5FEE6;
+}
+
+.footer-main {
+  background: #F5FEE6;
+  font-family: 'inter';
+  padding-top: 30px;
+  margin-top: 80px;
+}
+
+.footer-head {
+  font-weight: bolder;
+  line-height: 19px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: #0F6018;
+}
+
+.footer-sub {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.copy {
+  font-size: 11px;
+  text-align: center;
+  font-weight: 800;
+  padding: 20px 0px 20px;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+.footer img {
+  width: 107px;
+}
 
 
 
