@@ -235,8 +235,38 @@ display: flex;
 
 .reward img {
   width: 95%;
+  padding-left: 10px;
 }
 
 .reward2 {
   width: 50%;
+  margin-left: 19px;
+}
+
+.r2{
+  font-family: 'Gil';
+  font-weight: bold;
+  font-size: 49px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.r3{
+  font-family: 'Inter';
+  font-size: 19px;
+  font-weight: 600;
+  color: #252522;
+  padding-bottom: 25px;
+}
+
+.btn {
+  background: #1CB02D;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 72px;
+  border-radius: 16px;
+  
+  font-family: 'gil';
+  color: #F5FEE6;
 }
