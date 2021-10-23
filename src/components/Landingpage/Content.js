@@ -58,9 +58,9 @@ const Hero = () => {
                     <img src={babyfood} alt="" />
                 </div>
                 <div className="reward2">
-                    <p className="r2">Members get exclusive rewards</p>
+                    <p className="r2">Members get <span className="p-green">exclusive</span> rewards</p>
                     <p className="r3">Become a member and get even more food for less.</p>
-                    <button>Sign up Now</button>
+                    <button className="btn">Sign up Now</button>
                 </div>
             </div>
         </div>
