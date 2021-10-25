@@ -46,7 +46,7 @@
     text-transform: uppercase;
     background: #F5FEE6;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #252522;
@@ -140,6 +140,10 @@
 .below-nav a{
   text-decoration: none;
   color: #1CB02D;
+}
+
+.below-nav a:hover{
+  color: #FEB434;
 }
 
 div.below-nav {
@@ -269,9 +273,22 @@ display: flex;
 
 .title {
   font-family: 'gil';
+  font-size: 25px;
   text-align: center;
   padding-top: 34px;
   padding-bottom: 16px;
+}
+
+.carous p{
+  font-weight: 100;
+  font-size: 13px;
+  color: #252522;
+}
+
+.span {
+  text-decoration: line-through;
+  font-size: 10px;
+  color: red;
 }
 
 .blog {
@@ -289,7 +306,7 @@ display: flex;
 .blog2{
   font-family: 'inter';
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
   width: 39%;
   padding-bottom: 16px;
 }
