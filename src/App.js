@@ -8,6 +8,7 @@ import Groceries from './pages/Groceries';
 import Bakery from './pages/Bakery';
 import Restaurants from './pages/Restaurants';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Usersignup from './pages/UserSignUp';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             </Router>
             <Router path="/restaurants">
               <Restaurants />
+            </Router>
+            <Router path="/signup">
+              <Usersignup />
             </Router>
           </Switch>
         </div>

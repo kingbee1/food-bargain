@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Landingpage/Footer';
 import Navbar from '../components/Landingpage/Navbar';
-import bk1 from '../images/bk1.png'
+import rs1 from '../images/rs1.png'
 import bk2 from '../images/bk2.png'
 import bk3 from '../images/bk3.png'
 import bk4 from '../images/bk4.png'
@@ -57,8 +57,8 @@ const Restaurants = () => {
                      </div >
                         <div className="Groc-pic flex justify-between">
                         <div>
-                        <img src={bk1} alt="food" />
-                        <div className="flex justify-between"><p>Banana Bread</p> <p>-16</p></div>
+                        <img src={rs1} alt="food" />
+                        <div className="flex justify-between"><p>Beef Burger</p> <p>-16</p></div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
                     
@@ -118,8 +118,8 @@ const Restaurants = () => {
             <p className="groc-bottom">People are currently looking at these </p>
             <div className="Groc-pic2 flex justify-between">
             <div>
-                        <img src={bk1} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <img src={rs1} alt="food" />
+                        <div className="flex justify-between"><p>Beef Burger</p> <p>-16</p></div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
                     
