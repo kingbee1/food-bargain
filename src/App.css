@@ -623,13 +623,24 @@ padding-left: 4px;
 }
 
 .Groc-pic {
-  width: 40%;
+  width: 83%;
   padding: 12px 12px;
+  flex-wrap: wrap;
+}
+
+.Groc-pic img {
+  width: 220px;
+  height: 124px;
 }
 
 .groc-bottom {
   font-family: 'gil';
   font-size: 18px;
   margin-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
+}
+
+.Groc-pic2 {
+  margin: 0px 100px;
 }
