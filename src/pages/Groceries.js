@@ -80,6 +80,9 @@ const Groceries = () => {
                     </div>
                 </div>
             </section>
+            <div>
+            </div>
+                <p className="groc-bottom">People arke currently looking at these </p>
         </div>
         <Footer />
         </div>
