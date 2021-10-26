@@ -10,11 +10,8 @@ import { RiShoppingCartLine } from "react-icons/ri";
 const Navbar = () => {
     return (
         <div>
-            <div className="top">
-            <h1 className="top-case">Get a free snack & exclusive rewards when you sign up</h1>
-            </div>
             <nav className="logo">
-                <img src={logo} alt=""/>
+            <Link to="/"><img src={logo} alt=""/></Link>
 
                 <form className="search">
                     <div className="search-form"> 

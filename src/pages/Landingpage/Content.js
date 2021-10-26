@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import hero1 from '../../images/hero1.png'
 import hero2 from '../../images/hero2.png'
 import hero3 from '../../images/hero3.png'
@@ -10,13 +11,17 @@ import babyfood from '../../images/babyfood.png'
 import fight1 from '../../images/fight1.png'
 
 
-const Hero = () => {
+const Content = () => {
+    const handleClick = (name, e) => {
+        console.log('hello ' + name, e.target);
+    }
+
     return(
         <div>
             <div className="below-nav">
-                <p>Groceries</p>
-                <p>Bakery</p>
-                <p>Restaurants</p>
+                <Link to="/groceries">Groceries </Link>
+                <Link to="/bakery">Bakery </Link>
+                <Link to="/restaurants">Restaurants </Link>
             </div>
             <div className="eat-more flex justify-between">
                 <div className="child left">
@@ -61,31 +66,32 @@ const Hero = () => {
                 <div className="reward2">
                     <p className="r2">Members get <span className="p-green">exclusive</span> rewards</p>
                     <p className="r3">Become a member and get even more food for less.</p>
-                    <button className="btn">Sign up Now</button>
+                    <button onClick={(e) => handleClick('Roy', e)} className="btn">Sign up Now</button>
                 </div>
             </div>
             <div className="carou">
                 <p className="title"> Oops! You just missed it</p>
-                <div className="flex justify-between">
+                <div className="carous flex justify-between">
                     <div>
                         <img src={food1} alt="food" />
-                        <p>Stir Fry Noodles</p>
-                        <p>N 5,400</p>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-56</p></div>
+                        <p>N 5,400 &emsp; <span className="span">NGN 3,000</span></p> 
                     </div>
                     <div>
                         <img src={food2} alt="food" />
-                        <p>Stir Fry Noodles</p>
-                        <p>N 5,400</p>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-36</p></div>
+                        <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
                     <div>
                         <img src={food3} alt="food" />
-                        <p>Stir Fry Noodles</p>
-                        <p>N 5,400</p>
-                    </div>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-33</p></div>
+                        <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
+                    </div> 
+    <div className="flex">
                     <div>
                         <img src={food4} alt="food" />
-                        <p>Stir Fry Noodles</p>
-                        <p>N 5,400</p>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
                    
                 </div>
@@ -105,6 +111,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+ </div>
             <div className="base-container">
             <p className="fight">Look what our food fighters have to say</p>
             <div className="flex justify-between">
@@ -143,4 +150,4 @@ const Hero = () => {
 
 }
 
-export default Hero;
+export default Content;

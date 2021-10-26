@@ -529,7 +529,101 @@ display: flex;
   /* margin-left: 40px; */
 }
 
+/*/* GROCECERIES STYLING  */
 
+.top-groceries {
+  width: 16%;
+  padding-left: 30px;
+  padding-bottom: 18px;
+  font-family: 'inter';
+}
 
+.members {
+ text-align: center;
+ font-family: 'inter';
+ font-size: 14px;
+ font-weight: 800;
+ background: #F5FEE6;
+ padding-bottom: 24px;
+ padding-top: 20px;
+}
 
+.members-p {
+  font-family: 'inter';
+  font-weight: 300;
+}
 
+.members-btn {
+  font-family: 'gil';
+  color: #1CB02D;
+  width: 41%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.mbtn1{
+  /* background: #FEB434; */
+
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 40px;
+  border-radius: 14px;
+  font-family: 'gil';
+  color: #1CB02D;
+  background: #F5FEE6;
+  border: 2px solid #1CB02D;
+}
+
+.mbtn2{
+  /* border: none; */
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 52px;
+  border-radius: 14px;
+  font-family: 'gil';
+  border: 2px solid #1CB02D;
+  color: #1CB02D;
+  background: #F5FEE6;
+}
+.groc-container{
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.grocery-top{
+  text-align: left;
+  font-family: 'gil';
+}
+
+.big-p{
+  font-family: 'gil';
+  font-size: 24px;
+  padding-bottom: 13px;
+  text-align: left;
+  padding-left: 16%;;
+}
+
+.grocery-side {
+  font-family: 'inter';
+  line-height: 35px;
+  font-weight: 400;
+  margin-right: 50px;
+  text-align: left;
+padding-left: 4px;
+}
+
+.sort{
+  text-align: center;
+  width: 20%;
+}
+
+.asort{
+  width: 46%;
+  padding-left: 12px;
+  padding-bottom: 20px;
+}
+
+.Groc-pic {
+  width: 40%;
+  padding: 12px 12px;
+}
