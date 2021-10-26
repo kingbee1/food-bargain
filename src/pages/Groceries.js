@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Landingpage/Navbar'
 import Footer from '../components/Landingpage/Footer'
-import food3 from '../images/food3.png'
 import gr1 from '../images/gr1.png'
 import gr2 from '../images/gr2.png'
 import gr3 from '../images/gr3.png'
