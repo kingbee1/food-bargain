@@ -524,9 +524,7 @@ display: flex;
 
 .footer img {
   width: 107px;
-  /* text-align: center;
-  margin: auto; */
-  /* margin-left: 40px; */
+
 }
 
 /*/* GROCECERIES STYLING  */
@@ -544,8 +542,9 @@ display: flex;
  font-size: 14px;
  font-weight: 800;
  background: #F5FEE6;
- padding-bottom: 24px;
+ padding-bottom: 20px;
  padding-top: 20px;
+ margin-bottom: 10px;
 }
 
 .members-p {
@@ -626,4 +625,11 @@ padding-left: 4px;
 .Groc-pic {
   width: 40%;
   padding: 12px 12px;
+}
+
+.groc-bottom {
+  font-family: 'gil';
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
 }

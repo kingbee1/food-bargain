@@ -82,8 +82,8 @@ const Groceries = () => {
             </section>
             <div>
             </div>
-                <p className="groc-bottom">People arke currently looking at these </p>
         </div>
+                <p className="groc-bottom">People are currently looking at these </p>
         <Footer />
         </div>
     )
