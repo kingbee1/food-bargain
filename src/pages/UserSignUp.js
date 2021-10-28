@@ -1,9 +1,11 @@
 import React from 'react';
 import Footer from '../components/Landingpage/Footer';
 import Navbar from '../components/Landingpage/Navbar';
+import { useState } from 'react';
 
 
 const Usersignup = () => {
+    
     return (
         <div>
             <Navbar />
@@ -12,22 +14,22 @@ const Usersignup = () => {
                 <p className="small-top">Let’s get you set up so you can begin to enjoy food bargains </p>
             <div className="form">
                 <form className="form1 flex justify-between">
+                    <label></label>
+                    <input type="text" placeholder= "First name" />
                     <label for=""></label>
-                    <input type="text"  name="fname" value="First name" />
-                    <label for=""></label>
-                    <input type="text"  name="lname" value="Last name" />
+                    <input type="text" placeholder="Last name" />
                 </form>
                 <form className="flex justify-between">
                     <label for=""></label>
-                    <input type="email"  name="fname" value="Email address" />
+                    <input type="email" placeholder="Email address" />
                     <label for=""></label>
-                    <input type="text"  name="lname" value="Phone number" />
+                    <input type="text" placeholder="Phone number" />
                 </form>
                 <form className="flex flex justify-between">
                     <label for=""></label>
-                    <input type="text"  name="fname" value="Password" />
+                    <input type="text" placeholder="Password" />
                     <label for=""></label>
-                    <input type="text"  name="lname" value="Confirm Password" />
+                    <input type="text" placeholder="Confirm Password" />
                 </form>
 
             </div>
