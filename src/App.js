@@ -9,6 +9,10 @@ import Bakery from './pages/Bakery';
 import Restaurants from './pages/Restaurants';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Usersignup from './pages/UserSignUp';
+import Cart from './pages/CartList';
+import NotFound from './pages/NotFound';
+import UserLogin from './pages/UserLogin';
+import SampleCart from './pages/SampleCart';
 
 function App() {
   return (
@@ -16,21 +20,33 @@ function App() {
       <div className="App">
         <div className="Content">
           <Switch>
-            <Router exact path="/">
+            <Route exact path="/">
               <Home />
-            </Router>
-            <Router path="/groceries">
+            </Route>
+            <Route path="/groceries">
               <Groceries />
-            </Router>
-            <Router path="/bakery">
+            </Route>
+            <Route path="/bakery">
               <Bakery />
-            </Router>
-            <Router path="/restaurants">
+            </Route>
+            <Route path="/restaurants">
               <Restaurants />
-            </Router>
-            <Router path="/signup">
+            </Route>
+            <Route path="/signup">
               <Usersignup />
-            </Router>
+            </Route>
+            <Route path="/cart">
+              <Cart />
+            </Route>
+            <Route path="/login">
+              <UserLogin />
+            </Route>
+            <Route path="/sample">
+              <SampleCart />
+            </Route>
+            <Route>
+              <NotFound path="/*" />
+            </Route>
           </Switch>
         </div>
       </div>
