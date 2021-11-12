@@ -10,6 +10,7 @@ import bk6 from '../images/bk6.png'
 import bk7 from '../images/bk7.png'
 import bk8 from '../images/bk8.png'
 import bk9 from '../images/bk9.png'
+import Hero from '../components/Hero';
 
 const Restaurants = () => {
     return (
@@ -23,11 +24,7 @@ const Restaurants = () => {
         <p> Breakfast </p>
         </div>
         <div className="members">
-            <p className="members-p">REGISTERED MEMBERS GET EXCLUSIVE REWARDS & FREEBIES</p>
-            <div className="members-btn flex justify-between">
-                <button className="mbtn1">Sign in</button>
-                <button className="mbtn2">Become a member</button>
-            </div>
+           <Hero />
 
             <section className="groc-container">
                 <div>

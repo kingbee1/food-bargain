@@ -12,17 +12,11 @@ import fight1 from '../../images/fight1.png'
 
 
 const Content = () => {
-    const handleClick = (name, e) => {
-        console.log('hello ' + name, e.target);
+    const handleClick = () => {
     }
 
     return(
         <div>
-            <div className="below-nav">
-                <Link to="/groceries">Groceries </Link>
-                <Link to="/bakery">Bakery </Link>
-                <Link to="/restaurants">Restaurants </Link>
-            </div>
             <div className="eat-more flex justify-between">
                 <div className="child left">
                     <h1 className="hero-side">Eat <span className="p-green">more for less</span> and fight food <br/> waste</h1>
@@ -66,7 +60,7 @@ const Content = () => {
                 <div className="reward2">
                     <p className="r2">Members get <span className="p-green">exclusive</span> rewards</p>
                     <p className="r3">Become a member and get even more food for less.</p>
-                    <button onClick={(e) => handleClick('Roy', e)} className="btn">Sign up Now</button>
+                    <Link to="/signup"><button onClick={(e) => handleClick(e)} className="btn">Sign up Now</button></Link>
                 </div>
             </div>
             <div className="carou">

@@ -22,14 +22,24 @@
   justify-content: center
 }
 
+.border{
+  border-color: purple;
+  border-style: solid;
+}
+
 .p-green {
   color: #1CB02D !important;
+  font-family: 'gil';  
 }
 
 .center{
   text-align: center;
   font-family: 'gil';
   padding-bottom: 20px;
+}
+
+.middle{
+  text-align: center;
 }
 
 .top{
@@ -419,9 +429,9 @@ display: flex;
 
 .fight4{
   background: #FEB434;
-    border-radius: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 10px 2px 4px #f1f0f0;
+  border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 2px 4px #f1f0f0;
 }
 
 .fight4 img {
@@ -434,7 +444,7 @@ display: flex;
 .community {
   margin-top: 40px;
   margin-bottom: 40px;
-  background-image: url("./images/Logo.png");
+  /* background-image: url("/public/images/Logo.png"); */
   background-color: #1CB02D;
   padding-bottom: 30px;
   padding-top: 25px;
@@ -561,8 +571,6 @@ display: flex;
 }
 
 .mbtn1{
-  /* background: #FEB434; */
-
   text-align: center;
   cursor: pointer;
   padding: 9px 40px;
@@ -673,6 +681,12 @@ padding-left: 4px;
   font-weight: 400;
 }
 
+.form ::placeholder {
+  font-family: 'gilo';
+  font-weight: 100;
+  color: #858884;
+}
+
 .checkbox {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -702,13 +716,146 @@ padding-left: 4px;
   margin-bottom: 6px;  
 }
 
-
 .small-top {
   font-family: 'gilo';
   font-size: 14px;
   margin-bottom: 40px;
 }
 
+/* CART */
+
+.cart-container{
+  background: #F5FEE6;
+  margin-bottom: 20px;
+}
+
+.below-cart{
+  justify-content: flex-end;
+}
+
+.btn-cart {
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+
+/* LOGIN */
+
+.login-p{
+  font-family: 'gilo';
+  font-size: 13px;
+  
+}
+
+.login-p1 {
+  font-family: 'gil';
+  font-size: 20px;
+  padding-left: 425px;
+  margin-bottom: 18px;
+  margin-top: 40px;
+}
+
+.login-p2{
+  margin-bottom: 25px;
+  padding-left: 425px;
+  font-family: 'gilo';
+}
+
+.login-form {
+  /* text-align: center;  */
+  padding-left: 415px;
+}
+
+
+.login-form input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width:44%;
+  line-height: 34px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'gilo';
+  font-weight: 400;
+}
+
+.login-form ::placeholder {
+  font-family: 'gilo';
+  font-weight: 100;
+  color: #858884;
+  /* padding-left: 28px; */
+}
+
+.mail{
+  color: #858884;
+}
+
+.lock {
+  color: #858884;
+}
+
+.checking input:checked  {
+  background-color: #1CB02D;
+}
+
+.checking {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'inter';
+  font-size: 12px;
+  line-height: 21px;
+  padding-left: 5px;
+  width: 55%;
+}
+
+
+.l-btn {
+  background: #1CB02D;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 82px;
+  border-radius: 19px;
+  font-family: 'gil';
+  color: #F5FEE6;
+}
 
 
 
+.l-btn2{
+  /* border: none; */
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 43px;
+  border-radius: 14px;
+  font-family: 'gil';
+  border: 2px solid #1CB02D;
+  color: #1CB02D;
+  background: #F5FEE6;
+}
+
+/* NOT FOUND */
+.error {
+  font-family: 'gil';
+}
+
+/* SAMPLE */
+
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+.foods img {
+  width: 100%;
+}
+
+.food {
+  padding: 60px;
+}
+
+.buttt {
+  font-size: 20px;
+  padding: 8px;
+}

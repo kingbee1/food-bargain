@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../images/Logo.png';
 
 
+
 const Footer =  () => {
     return (
         <div className="footer-main">

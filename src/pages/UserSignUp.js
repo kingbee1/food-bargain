@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/Landingpage/Footer';
 import Navbar from '../components/Landingpage/Navbar';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Usersignup = () => {
@@ -25,15 +26,15 @@ const Usersignup = () => {
                     <label for=""></label>
                     <input type="text" placeholder="Phone number" />
                 </form>
-                <form className="flex flex justify-between">
+                <form className="flex justify-between">
                     <label for=""></label>
                     <input type="text" placeholder="Password" />
                     <label for=""></label>
                     <input type="text" placeholder="Confirm Password" />
                 </form>
-
             </div>
-            <form className="checkbox justify-between">
+ 
+            <form className="checking justify-between">
                 <input type="checkbox" name="" value="" />
                 <label for=""> I have read and agreed to the <span className="p-green">terms and conditions</span></label>
             </form>
@@ -42,7 +43,7 @@ const Usersignup = () => {
                 <button className=" btn">Create Account</button>
             </div>
 
-            <p className="sign-p">Already have an account? <span className="p-green">Login</span></p>
+            <p className="sign-p">Already have an account? <Link to="/login"><span className="p-green">Login</span></Link></p>
         </div>
         <Footer />
       </div>

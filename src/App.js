@@ -3,6 +3,7 @@ import './App.css';
 import Home from './pages/Landingpage/Home';
 import Navbar from './components/Landingpage/Navbar';
 import Content from './pages/Landingpage/Content';
+import Hero from './components/Hero';
 import Footer from './components/Landingpage/Footer';
 import Groceries from './pages/Groceries';
 import Bakery from './pages/Bakery';

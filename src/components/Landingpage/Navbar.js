@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../../images/Logo.png';
+
 import { FiSearch } from "react-icons/fi";
 import { FaUserAlt } from "react-icons/fa";
 //import { CgShoppingCart } from "react-icons/cg";
 import { RiShoppingCartLine } from "react-icons/ri";
+import { createStore } from 'redux';
+import Cart from '../../pages/CartList';
 
 
 const Navbar = () => {
@@ -21,11 +24,18 @@ const Navbar = () => {
                 </form>
             <ul className="cart">
                 <FaUserAlt className="cart-user"/>
-                <li>Log in</li>
+                <Link to="/login"><li>Log in</li></Link>
                 <RiShoppingCartLine className="cart-icon" />
-                <li>Shopping Cart (0)</li>
+                <Link to="/cart"><li>Shopping Cart(0)</li></Link>
             </ul>
             
+            
+            <div className="below-nav">
+                <Link to="/groceries">Groceries </Link>
+                <Link to="/bakery">Bakery </Link>
+                <Link to="/restaurants">Restaurants </Link>
+            </div>
+
             </nav>
         </div>
                
