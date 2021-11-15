@@ -7,7 +7,7 @@ import gr3 from '../images/gr3.png'
 
 
 function SampleCart() {
-    const [cart, setCart] = useState ([]);
+    const [cart, setCart] = useState([]);
 
     //relation btw the component 'prop drilling-passing prop from different components till it reaches'
     //redux or context api
@@ -37,10 +37,12 @@ function SampleCart() {
         {
             branch: 'Bakery',
             name: 'Ace Bread',
-            image: '{gr3}',
+            image: gr3,
         },
        
     ]);
+
+
 
     const addToCart = (food) => {
         
@@ -51,7 +53,7 @@ function SampleCart() {
 
     return (
         <div>
-        <Navbar />
+            <Navbar cartLength={cart.length} />
         <header>
             <button>Go to Cart ({cart.length})</button>
         </header>
