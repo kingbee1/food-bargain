@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Footer from '../components/Landingpage/Footer';
 import Navbar from '../components/Landingpage/Navbar';
-// import gr2 from '../../../images/gr2.png'
-// import gr1 from '../../images/gr1.png'
+ import gr2 from '../images/gr2.png'
+import gr1 from '../images/gr1.png'
 import gr3 from '../images/gr3.png'
 
 
@@ -17,33 +17,30 @@ function SampleCart() {
         {
             branch: 'Bakery',
             name: 'Banana Bread',
-            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYEgc-H3iNBWc4IpqxYCL5xSNwUfbaApPDbA&usqp=CAU',
+            image: gr2,
         },
 
         {
             branch: 'Bakery',
             name: 'Hot Dog Sausage',
             image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYEgc-H3iNBWc4IpqxYCL5xSNwUfbaApPDbA&usqp=CAU',
-            
-            // 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202104-airfryerhotdogs-044-1619472270.jpg',
         },
 
         {
             branch: 'Bakery',
             name: 'Ace Bread',
-            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYEgc-H3iNBWc4IpqxYCL5xSNwUfbaApPDbA&usqp=CAU',
+            image: gr1,
         },
 
         {
             branch: 'Bakery',
             name: 'Ace Bread',
-            image: '{gr3}',
+            image: gr3,
         },
        
     ]);
 
-    const addToCart = (food) => {
-        
+    const addToCart = (food) => {       
         // console.log('working or nah?');
         setCart([...cart, food]);
     };
@@ -51,7 +48,8 @@ function SampleCart() {
 
     return (
         <div>
-        <Navbar />
+        <Navbar cartLength={cart.length} />
+
         <header>
             <button>Go to Cart ({cart.length})</button>
         </header>

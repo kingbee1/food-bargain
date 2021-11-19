@@ -11,6 +11,7 @@ import Cart from '../../pages/CartList';
 
 
 const Navbar = () => {
+
     return (
         <div>
             <nav className="logo">
@@ -26,7 +27,8 @@ const Navbar = () => {
                 <FaUserAlt className="cart-user"/>
                 <Link to="/login"><li>Log in</li></Link>
                 <RiShoppingCartLine className="cart-icon" />
-                <Link to="/cart"><li>Shopping Cart(0)</li></Link>
+                <Link to="/cart"><li>Shopping Cart(0) </li></Link>
+                
             </ul>
             
             

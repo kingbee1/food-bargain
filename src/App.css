@@ -49,17 +49,17 @@
 }
 
 .top-case{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    height: 19px;
-    text-transform: uppercase;
-    background: #F5FEE6;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #252522;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 19px;
+  text-transform: uppercase;
+  background: #F5FEE6;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #252522;
 }
 
 .logo img {
@@ -145,8 +145,6 @@
   display: flex;
 }
 
-
-
 .below-nav a{
   text-decoration: none;
   color: #1CB02D;
@@ -194,8 +192,6 @@ div.below-nav {
   line-height: 21px;
   color: #252522;
 }
-
-
 
 .feature {
   background: #F5FEE6;
@@ -820,8 +816,6 @@ padding-left: 4px;
   color: #F5FEE6;
 }
 
-
-
 .l-btn2{
   /* border: none; */
   text-align: center;
@@ -832,6 +826,12 @@ padding-left: 4px;
   border: 2px solid #1CB02D;
   color: #1CB02D;
   background: #F5FEE6;
+}
+
+.line{
+  height: 2px;
+  width: 10%;
+  background: #0F6018;
 }
 
 /* NOT FOUND */
