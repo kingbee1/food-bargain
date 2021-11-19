@@ -43,13 +43,11 @@
 }
 
 .top{
-  position: absolute;
   width: 100%;
   color: #f5fee6;
 }
 
 .top-case{
-  position: absolute;
   width: 100%;
   text-align: center;
   height: 19px;
@@ -862,9 +860,15 @@ padding-left: 4px;
 
 
 
-/* MEDIA QUERRIES */
+/* MEDIA QUERRIES */ /* MEDIA QUERRIES */ /* MEDIA QUERRIES */ 
 
 @media screen and (max-width: 900px) {
+  .top-case{
+    width: 100%;
+    font-size: 11px;
+  }
+
+
   .logo img{
   text-align: center;
   width: 13%;
@@ -890,18 +894,12 @@ padding-left: 4px;
     width: 199px;
     margin-top:  35px;
     height: 21px;
-    /* border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom-color: #1CB02D; */
   }
 
   .search-icon {
     left: -5px;
-    /* padding-right: 400px; */
     right: 13.52%;
     margin-top: 29px;
-    border: none;
   }
 
 }
