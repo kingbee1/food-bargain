@@ -43,23 +43,6 @@
   text-align: center;
 }
 
-.top {
-  width: 100%;
-  color: #f5fee6;
-}
-
-.top-case {
-  width: 100%;
-  text-align: center;
-  height: 19px;
-  text-transform: uppercase;
-  background: #f5fee6;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  color: #252522;
-}
 
 .search {
   position: absolute;
@@ -218,7 +201,7 @@ div.below-nav {
   width: 240px;
 }
 
-.reward {
+/* .reward {
   margin-top: 70px;
 }
 
@@ -258,7 +241,7 @@ div.below-nav {
   font-family: "gil";
   color: #f5fee6;
 }
-
+ */
 .carou {
   margin-top: 74px;
   padding: 12px 12px;

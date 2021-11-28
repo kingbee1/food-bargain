@@ -188,3 +188,66 @@
   display: flex;
   justify-content: center;
 }
+
+/* talk yo shit */
+
+.top-cards {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.top-cards .section-title {
+  text-align: center;
+  font-family: "gil";
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.top-cards .item-cards {
+  display: flex;
+  justify-content: center;
+}
+
+/* member reward */
+
+.reward {
+  margin-top: 70px;
+}
+
+.reward img {
+  width: 85%;
+  padding-left: 40px;
+}
+
+.reward2 {
+  width: 50%;
+  margin-left: 19px;
+}
+
+.r2 {
+  font-family: "Gil";
+  font-weight: bold;
+  font-size: 49px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.r3 {
+  font-family: "Inter";
+  font-size: 19px;
+  font-weight: 600;
+  color: #252522;
+  padding-bottom: 25px;
+}
+
+.btn {
+  background: #1cb02d;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 72px;
+  border-radius: 16px;
+  font-family: "gil";
+  color: #f5fee6;
+}
+
