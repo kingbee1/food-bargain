@@ -30,7 +30,7 @@ export default function TopHeader() {
 
       </div>
       <div className="secondary-links">
-        <Link to="/">Groceries</Link>
+        <Link to="/groceries">Groceries</Link>
         <Link to="/">Pastries</Link>
         <Link to="/">Restaurants</Link>
       </div>

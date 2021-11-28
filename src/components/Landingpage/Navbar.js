@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import logo from '../../images/logo.png';
+//import logo from '../../images/logo.png';
 
 import { FiSearch } from "react-icons/fi";
 import { FaUserAlt } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Navbar = () => {
         <div>
             <nav className="logo">
                 <Link to="/">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                 </Link>
 
                 <form className="search">

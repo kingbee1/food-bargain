@@ -60,11 +60,11 @@
 }
 
 .menu-items .item a {
-  font-weight: 500;
+  font-weight: 800;
   color: #1cb02d;
   margin: 0 4px;
   text-decoration: none;
-  font-family: "gil";
+  font-family: "gilo";
 }
 
 .secondary-links {
@@ -73,7 +73,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 .secondary-links a {
   text-decoration: none;
@@ -95,9 +95,10 @@
 }
 .banner .data {
   width: 35%;
+
 }
 .banner .data .title {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 74px;
   font-weight: 800;
   font-family: "gil";
@@ -110,7 +111,7 @@
 }
 
 .banner .data .subtitle {
-  font-size: 18px;
+  font-size: 15px;
   color: #000;
   line-height: 25px;
   margin-top: 32px;
@@ -120,12 +121,12 @@
 .banner .data button {
   background-color: #1cb02d;
   border-radius: 15px;
-  height: 56px;
+  height: 50px;
   width: 100%;
   max-width: 260px;
   color: #fff;
   font-family: "gil";
-  font-size: 18px;
+  font-size: 16px;
   border: none;
   margin-top: 32px;
 }
@@ -151,6 +152,25 @@
   position: absolute;
   top: 10px;
   left: 15%;
+}
+
+.banner .banner-image .stat2 {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(28, 176, 45, 0.3);
+  background-color: #f5fee6;
+  color: #1cb02d;
+  font-family: "gil";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .banner-image .stat2 {
+  position: absolute;
+  top: 10px;
+  right: 15%;
 }
 
 .top-restaurants {
