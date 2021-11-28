@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
 }
@@ -12,6 +12,7 @@
   font-family: gilo;
   src: url("./fonts/Gilroy-Light.otf");
 }
+
 .flex {
   display: flex;
 }
@@ -19,85 +20,76 @@
   justify-content: space-between;
 }
 .justify-center {
-  justify-content: center
+  justify-content: center;
 }
 
-.border{
+.border {
   border-color: purple;
   border-style: solid;
 }
 
 .p-green {
-  color: #1CB02D !important;
-  font-family: 'gil';  
+  color: #1cb02d !important;
+  font-family: "gil";
 }
 
-.center{
+.center {
   text-align: center;
-  font-family: 'gil';
+  font-family: "gil";
   padding-bottom: 20px;
 }
 
-.middle{
+.middle {
   text-align: center;
 }
 
-.top{
+.top {
   width: 100%;
   color: #f5fee6;
 }
 
-.top-case{
+.top-case {
   width: 100%;
   text-align: center;
   height: 19px;
   text-transform: uppercase;
-  background: #F5FEE6;
-  font-family: 'Inter', sans-serif;
+  background: #f5fee6;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #252522;
 }
 
-.logo img {
-  /* position: relative; */
-  text-align: center;
-  width: 181px;
-  margin-left: 497px;
-  margin-top: 40px;
-  margin-bottom: 70px;
-} 
-
 .search {
   position: absolute;
   left: 39px;
   top: 106px;
   border-radius: 1px;
-  color: #1CB02D;
-  }
+  color: #1cb02d;
+}
 
-.search-bar{
+.search-bar {
   width: 200px;
-  top:  35px;
+  top: 35px;
   height: 21px;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom-color: #1CB02D;
+  border-bottom-color: #1cb02d;
 }
 
 .food-search input {
   left: 40px;
-  font: 'gil', sans-serif;
+  font: "gil", sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
 
 ::placeholder {
   padding-left: 24px;
-  font-family: 'gilo', 'roboto', 'Arial Narrow', Arial, sans-serif;
-  color:#1CB02D;
+  font-family: "gilo", "roboto", "Arial Narrow", Arial, sans-serif;
+  color: #1cb02d;
 }
 
 .search-icon {
@@ -110,7 +102,7 @@
   border: none;
 }
 
-.cart{
+.cart {
   position: absolute;
   right: 24px;
   top: 85px;
@@ -121,69 +113,68 @@
   display: inline-block;
   margin: 0 11px;
   list-style: none;
-  color: #1CB02D;
+  color: #1cb02d;
   font-size: 14px;
   cursor: pointer;
 }
 .cart RiShoppingCartLine {
-  color: #1CB02D;
+  color: #1cb02d;
 }
 
-.cart-user{
-  color: #1CB02D;
+.cart-user {
+  color: #1cb02d;
 }
 
-.cart-icon{
-  color: #1CB02D;
+.cart-icon {
+  color: #1cb02d;
 }
-.below-nav{
+.below-nav {
   position: absolute;
   right: 391px;
   top: 139px;
   display: flex;
 }
 
-.below-nav a{
+.below-nav a {
   text-decoration: none;
-  color: #1CB02D;
+  color: #1cb02d;
 }
 
-.below-nav a:hover{
-  color: #FEB434;
+.below-nav a:hover {
+  color: #feb434;
 }
 
 div.below-nav {
-  display:flex;
+  display: flex;
   margin-top: 34px;
   left: 377px;
   width: 38%;
   justify-content: space-between;
   font-weight: bold;
-  font-family: 'gil', sans-serif;
+  font-family: "gil", sans-serif;
   font-size: 19px;
   cursor: pointer;
-  color: #1CB02D;
+  color: #1cb02d;
 }
 
-.hero-side{
-
-  font-family: 'gil', sans-serif;
+.hero-side {
+  font-family: "gil", sans-serif;
   font-weight: 600;
   font-size: 40px;
 }
 
-.eat-more{
+.eat-more {
   width: 80%;
   margin: 0 auto;
 }
 
-.eat-more .child{
+.eat-more .child {
   width: 45%;
 }
 
-.eat-more p{
+.eat-more p {
   height: 108px;
-  font-family: 'gilo', sans-serif;
+  font-family: "gilo", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -192,11 +183,11 @@ div.below-nav {
 }
 
 .feature {
-  background: #F5FEE6;
+  background: #f5fee6;
 }
 
-.feature-text{
-  font-family: 'gil';
+.feature-text {
+  font-family: "gil";
   font-weight: bold;
   font-size: 21px;
   line-height: 34px;
@@ -206,7 +197,7 @@ div.below-nav {
 }
 
 .feature-p {
-display: flex;
+  display: flex;
 }
 
 .feature-pic1 img {
@@ -224,7 +215,7 @@ display: flex;
 }
 
 .feature-pic4 img {
-  width: 240px; 
+  width: 240px;
 }
 
 .reward {
@@ -241,16 +232,16 @@ display: flex;
   margin-left: 19px;
 }
 
-.r2{
-  font-family: 'Gil';
+.r2 {
+  font-family: "Gil";
   font-weight: bold;
   font-size: 49px;
   padding-top: 60px;
   padding-bottom: 20px;
 }
 
-.r3{
-  font-family: 'Inter';
+.r3 {
+  font-family: "Inter";
   font-size: 19px;
   font-weight: 600;
   color: #252522;
@@ -258,32 +249,24 @@ display: flex;
 }
 
 .btn {
-  background: #1CB02D;
+  background: #1cb02d;
   border: none;
   text-align: center;
   cursor: pointer;
   padding: 12px 72px;
   border-radius: 16px;
-  font-family: 'gil';
-  color: #F5FEE6;
+  font-family: "gil";
+  color: #f5fee6;
 }
 
- .carou {
-   margin-top: 74px;
-   padding: 12px 12px;
-   background: #F5FEE6;
-   font-family: 'gil';
-} 
-
-.title {
-  font-family: 'gil';
-  font-size: 25px;
-  text-align: center;
-  padding-top: 34px;
-  padding-bottom: 16px;
+.carou {
+  margin-top: 74px;
+  padding: 12px 12px;
+  background: #f5fee6;
+  font-family: "gil";
 }
 
-.carous p{
+.carous p {
   font-weight: 100;
   font-size: 13px;
   color: #252522;
@@ -298,41 +281,40 @@ display: flex;
 .blog {
   margin-top: 74px;
   padding: 29px 72px;
- 
-} 
+}
 
-.blog1{
-  font-family: 'gil';
+.blog1 {
+  font-family: "gil";
   font-size: 39px;
   padding-bottom: 10px;
 }
 
-.blog2{
-  font-family: 'inter';
+.blog2 {
+  font-family: "inter";
   font-size: 15px;
   font-weight: 400;
   width: 39%;
   padding-bottom: 16px;
 }
 
-.blog3{
-  font-family: 'gil';
+.blog3 {
+  font-family: "gil";
   font-size: 16px;
 }
 
-.blog-right{
+.blog-right {
   padding-top: 12px;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 30px;
-  background: #116E1C;
+  background: #116e1c;
   border-radius: 11px;
 }
 
 .test {
   width: 84%;
   margin: auto;
-  padding:4px;
+  padding: 4px;
   background: #dbebdc;
   border-radius: 2px;
 }
@@ -349,39 +331,38 @@ display: flex;
 }
 
 .right1 {
-  font-family: 'gil';
+  font-family: "gil";
   color: white;
   font-size: 14px;
   font-weight: 200;
 }
 
-.base-container{
+.base-container {
   margin-left: 35px;
   padding-left: 10px;
   margin-right: 35px;
   padding-top: 50px;
 }
 
-.fight{
-  font-family: 'gil';
+.fight {
+  font-family: "gil";
   text-align: center;
   font-size: 29px;
   margin-bottom: 20px;
 }
 
-.fight-p{
-  font-family: 'inter';
+.fight-p {
+  font-family: "inter";
   font-size: 14px;
   font-weight: 700;
   text-align: center;
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 12px;
-  
 }
 
-.fight1{
-  background: #EEFF92;
+.fight1 {
+  background: #eeff92;
   margin-right: 35px;
   border-radius: 10px;
   box-shadow: 5px 10px 2px 4px #f1f0f0;
@@ -394,8 +375,8 @@ display: flex;
   padding-bottom: 15px;
 }
 
-.fight2{
-  background: #FEB434;
+.fight2 {
+  background: #feb434;
   margin-right: 35px;
   border-radius: 10px;
   box-shadow: 5px 10px 2px 4px #f1f0f0;
@@ -403,49 +384,49 @@ display: flex;
 
 .fight2 img {
   margin: auto;
-  display: flex; 
+  display: flex;
   padding-top: 50px;
   padding-bottom: 15px;
 }
 
-.fight3{
-  background: #EEFF92;
-   margin-right: 35px;
-   border-radius: 10px;
-   box-shadow: 5px 10px 2px 4px #f1f0f0;
+.fight3 {
+  background: #eeff92;
+  margin-right: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 2px 4px #f1f0f0;
 }
 .fight3 img {
   margin: auto;
- display: flex; 
- padding-top: 50px;
- padding-bottom: 15px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
-.fight4{
-  background: #FEB434;
+.fight4 {
+  background: #feb434;
   border-radius: 10px;
   border-radius: 10px;
   box-shadow: 5px 10px 2px 4px #f1f0f0;
 }
 
 .fight4 img {
- margin: auto;
- display: flex; 
- padding-top: 50px;
- padding-bottom: 15px;
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
 .community {
   margin-top: 40px;
   margin-bottom: 40px;
   /* background-image: url("/public/images/Logo.png"); */
-  background-color: #1CB02D;
+  background-color: #1cb02d;
   padding-bottom: 30px;
   padding-top: 25px;
 }
 .community-p {
   text-align: center;
-  font-family: 'gil';
+  font-family: "gil";
   font-size: 28px;
   color: #fff;
   padding-bottom: 25px;
@@ -454,11 +435,11 @@ display: flex;
 .community-p2 {
   text-align: center;
   margin: auto;
-  font-family: 'inter';
+  font-family: "inter";
   font-size: 14px;
   width: 42%;
   font-weight: 600;
-  padding-bottom: 25px;  
+  padding-bottom: 25px;
   color: #fff;
 }
 
@@ -467,14 +448,14 @@ display: flex;
   margin: auto;
 }
 
-.join-search{
+.join-search {
   border: none;
-  font-family: 'inter'; 
+  font-family: "inter";
   font-size: 12px;
   font-weight: 600;
   padding: 9px 39px;
   border-radius: 11px;
-  color: #77776E;;
+  color: #77776e;
 }
 
 /* .join-search ::placeholder{
@@ -483,19 +464,19 @@ display: flex;
 }  */
 
 .join-btn {
-  background: #FEB434;
+  background: #feb434;
   border: none;
   text-align: center;
   cursor: pointer;
   padding: 9px 52px;
   border-radius: 11px;
-  font-family: 'gil';
-  color: #F5FEE6;
+  font-family: "gil";
+  color: #f5fee6;
 }
 
 .footer-main {
-  background: #F5FEE6;
-  font-family: 'inter';
+  background: #f5fee6;
+  font-family: "inter";
   padding-top: 30px;
   margin-top: 80px;
 }
@@ -505,7 +486,7 @@ display: flex;
   line-height: 19px;
   padding-bottom: 20px;
   font-size: 15px;
-  color: #0F6018;
+  color: #0f6018;
 }
 
 .footer-sub {
@@ -521,14 +502,13 @@ display: flex;
   padding: 20px 0px 20px;
 }
 
-.footer{
+.footer {
   padding-right: 40px;
   padding-left: 40px;
 }
 
 .footer img {
   width: 107px;
-
 }
 
 /*/* GROCECERIES STYLING  */
@@ -537,88 +517,88 @@ display: flex;
   width: 16%;
   padding-left: 30px;
   padding-bottom: 18px;
-  font-family: 'inter';
+  font-family: "inter";
 }
 
 .members {
- text-align: center;
- font-family: 'inter';
- font-size: 14px;
- font-weight: 800;
- background: #F5FEE6;
- padding-bottom: 20px;
- padding-top: 20px;
- margin-bottom: 10px;
+  text-align: center;
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 800;
+  background: #f5fee6;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
 
 .members-p {
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 300;
 }
 
 .members-btn {
-  font-family: 'gil';
-  color: #1CB02D;
+  font-family: "gil";
+  color: #1cb02d;
   width: 41%;
   margin: auto;
   padding-top: 10px;
 }
 
-.mbtn1{
+.mbtn1 {
   text-align: center;
   cursor: pointer;
   padding: 9px 40px;
   border-radius: 14px;
-  font-family: 'gil';
-  color: #1CB02D;
-  background: #F5FEE6;
-  border: 2px solid #1CB02D;
+  font-family: "gil";
+  color: #1cb02d;
+  background: #f5fee6;
+  border: 2px solid #1cb02d;
 }
 
-.mbtn2{
+.mbtn2 {
   /* border: none; */
   text-align: center;
   cursor: pointer;
   padding: 9px 52px;
   border-radius: 14px;
-  font-family: 'gil';
-  border: 2px solid #1CB02D;
-  color: #1CB02D;
-  background: #F5FEE6;
+  font-family: "gil";
+  border: 2px solid #1cb02d;
+  color: #1cb02d;
+  background: #f5fee6;
 }
-.groc-container{
+.groc-container {
   margin-top: 20px;
   padding-left: 20px;
 }
 
-.grocery-top{
+.grocery-top {
   text-align: left;
-  font-family: 'gil';
+  font-family: "gil";
 }
 
-.big-p{
-  font-family: 'gil';
+.big-p {
+  font-family: "gil";
   font-size: 24px;
   padding-bottom: 13px;
   text-align: left;
-  padding-left: 16%;;
+  padding-left: 16%;
 }
 
 .grocery-side {
-  font-family: 'inter';
+  font-family: "inter";
   line-height: 35px;
   font-weight: 400;
   margin-right: 50px;
   text-align: left;
-padding-left: 4px;
+  padding-left: 4px;
 }
 
-.sort{
+.sort {
   text-align: center;
   width: 20%;
 }
 
-.asort{
+.asort {
   width: 46%;
   padding-left: 12px;
   padding-bottom: 20px;
@@ -636,7 +616,7 @@ padding-left: 4px;
 }
 
 .groc-bottom {
-  font-family: 'gil';
+  font-family: "gil";
   font-size: 18px;
   margin-top: 20px;
   padding-bottom: 20px;
@@ -649,11 +629,11 @@ padding-left: 4px;
 
 /* BAKERY */
 
-.top-bakery{
+.top-bakery {
   width: 30%;
   padding-left: 30px;
   padding-bottom: 18px;
-  font-family: 'inter';
+  font-family: "inter";
 }
 
 /* FORM */
@@ -663,20 +643,20 @@ padding-left: 4px;
   margin-right: 160px;
 }
 
-.form input{
+.form input {
   border-top: none;
   border-left: none;
   border-right: none;
-  width:49%;
+  width: 49%;
   line-height: 34px;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-family: 'gilo';
+  font-family: "gilo";
   font-weight: 400;
 }
 
 .form ::placeholder {
-  font-family: 'gilo';
+  font-family: "gilo";
   font-weight: 100;
   color: #858884;
 }
@@ -684,46 +664,46 @@ padding-left: 4px;
 .checkbox {
   margin-top: 20px;
   margin-bottom: 30px;
-  font-family: 'inter';
+  font-family: "inter";
   font-size: 12px;
   line-height: 21px;
 }
 
-.signbtn{
-   text-align: center;
-   margin-top: 15px;
-   margin-bottom: 10px;
+.signbtn {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .sign-p {
   text-align: center;
-  font-family: 'inter';
+  font-family: "inter";
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 190px;
 }
 
-.top-signup{
-  font-family: 'gil';
+.top-signup {
+  font-family: "gil";
   font-size: 28px;
   line-height: 34.3px;
-  margin-bottom: 6px;  
+  margin-bottom: 6px;
 }
 
 .small-top {
-  font-family: 'gilo';
+  font-family: "gilo";
   font-size: 14px;
   margin-bottom: 40px;
 }
 
 /* CART */
 
-.cart-container{
-  background: #F5FEE6;
+.cart-container {
+  background: #f5fee6;
   margin-bottom: 20px;
 }
 
-.below-cart{
+.below-cart {
   justify-content: flex-end;
 }
 
@@ -732,27 +712,25 @@ padding-left: 4px;
   margin-bottom: 10px;
 }
 
-
 /* LOGIN */
 
-.login-p{
-  font-family: 'gilo';
+.login-p {
+  font-family: "gilo";
   font-size: 13px;
-  
 }
 
 .login-p1 {
-  font-family: 'gil';
+  font-family: "gil";
   font-size: 20px;
   padding-left: 425px;
   margin-bottom: 18px;
   margin-top: 40px;
 }
 
-.login-p2{
+.login-p2 {
   margin-bottom: 25px;
   padding-left: 425px;
-  font-family: 'gilo';
+  font-family: "gilo";
 }
 
 .login-form {
@@ -760,27 +738,26 @@ padding-left: 4px;
   padding-left: 415px;
 }
 
-
 .login-form input {
   border-top: none;
   border-left: none;
   border-right: none;
-  width:44%;
+  width: 44%;
   line-height: 34px;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-family: 'gilo';
+  font-family: "gilo";
   font-weight: 400;
 }
 
 .login-form ::placeholder {
-  font-family: 'gilo';
+  font-family: "gilo";
   font-weight: 100;
   color: #858884;
   /* padding-left: 28px; */
 }
 
-.mail{
+.mail {
   color: #858884;
 }
 
@@ -788,53 +765,52 @@ padding-left: 4px;
   color: #858884;
 }
 
-.checking input:checked  {
-  background-color: #1CB02D;
+.checking input:checked {
+  background-color: #1cb02d;
 }
 
 .checking {
   margin-top: 20px;
   margin-bottom: 30px;
-  font-family: 'inter';
+  font-family: "inter";
   font-size: 12px;
   line-height: 21px;
   padding-left: 5px;
   width: 55%;
 }
 
-
 .l-btn {
-  background: #1CB02D;
+  background: #1cb02d;
   border: none;
   text-align: center;
   cursor: pointer;
   padding: 12px 82px;
   border-radius: 19px;
-  font-family: 'gil';
-  color: #F5FEE6;
+  font-family: "gil";
+  color: #f5fee6;
 }
 
-.l-btn2{
+.l-btn2 {
   /* border: none; */
   text-align: center;
   cursor: pointer;
   padding: 9px 43px;
   border-radius: 14px;
-  font-family: 'gil';
-  border: 2px solid #1CB02D;
-  color: #1CB02D;
-  background: #F5FEE6;
+  font-family: "gil";
+  border: 2px solid #1cb02d;
+  color: #1cb02d;
+  background: #f5fee6;
 }
 
-.line{
+.line {
   height: 2px;
   width: 10%;
-  background: #0F6018;
+  background: #0f6018;
 }
 
 /* NOT FOUND */
 .error {
-  font-family: 'gil';
+  font-family: "gil";
 }
 
 /* SAMPLE */
@@ -858,41 +834,19 @@ padding-left: 4px;
   padding: 8px;
 }
 
-
-
-/* MEDIA QUERRIES */ /* MEDIA QUERRIES */ /* MEDIA QUERRIES */ 
+/* MEDIA QUERRIES */ /* MEDIA QUERRIES */ /* MEDIA QUERRIES */
 
 @media screen and (max-width: 900px) {
-  .top-case{
+  .top-case {
     width: 100%;
     font-size: 11px;
   }
-
-
-  .logo img{
-  text-align: center;
-  width: 13%;
-  margin-left: 226px;
-  margin-top: 56px;
-  margin-bottom: 94px;
-
-  }
-
 }
 
 @media screen and (max-width: 560px) {
-  .logo img{
-  /* text-align: center; */
-  width: 17%;
-  margin-left: 26px;
-  margin-top: 56px;
-  margin-bottom: 99px;
-
-  }
-
-  .search-bar{
+  .search-bar {
     width: 199px;
-    margin-top:  35px;
+    margin-top: 35px;
     height: 21px;
   }
 
@@ -901,6 +855,4 @@ padding-left: 4px;
     right: 13.52%;
     margin-top: 29px;
   }
-
 }
-

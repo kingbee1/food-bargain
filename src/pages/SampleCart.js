@@ -7,7 +7,7 @@ import gr3 from '../images/gr3.png'
 
 
 function SampleCart() {
-    const [cart, setCart] = useState ([]);
+    const [cart, setCart] = useState([]);
 
     //relation btw the component 'prop drilling-passing prop from different components till it reaches'
     //redux or context api
