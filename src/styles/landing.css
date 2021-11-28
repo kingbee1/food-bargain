@@ -1,0 +1,170 @@
+.home-container {
+  background: #fbfff5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 5%;
+  background-color: #FFF;
+}
+
+.navbar .logo {
+  width: 100px;
+  height: 61px;
+}
+
+.navbar .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.searchbar {
+  min-width: 400px;
+  position: relative;
+}
+.searchbar input {
+  width: 95%;
+  border: none;
+  height: 45px;
+  border: 1px solid #1cb02d;
+  border-radius: 14px;
+  padding-left: 18px;
+}
+.searchbar button {
+  background: none;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  background-color: #1cb02d;
+  border: none;
+  width: 41px;
+  height: 33px;
+  border-radius: 8px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items .item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.menu-items .item img {
+  width: 18px;
+  height: auto;
+}
+
+.menu-items .item a {
+  font-weight: 500;
+  color: #1cb02d;
+  margin: 0 4px;
+  text-decoration: none;
+  font-family: "gil";
+}
+
+.secondary-links {
+  background-color: #f5fee6;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.secondary-links a {
+  text-decoration: none;
+  color: #1cb02d;
+  font-weight: 500;
+  font-family: "gilo";
+  margin-right: 5%;
+}
+
+.banner {
+  width: 100%;
+  background-color: #fff;
+}
+.banner .banner-content {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.banner .data {
+  width: 35%;
+}
+.banner .data .title {
+  font-size: 60px;
+  line-height: 74px;
+  font-weight: 800;
+  font-family: "gil";
+  text-align: left;
+  margin-bottom: 0;
+}
+.banner .data .title span {
+  color: #1cb02d;
+  text-transform: uppercase;
+}
+
+.banner .data .subtitle {
+  font-size: 18px;
+  color: #000;
+  line-height: 25px;
+  margin-top: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.banner .data button {
+  background-color: #1cb02d;
+  border-radius: 15px;
+  height: 56px;
+  width: 100%;
+  max-width: 260px;
+  color: #fff;
+  font-family: "gil";
+  font-size: 18px;
+  border: none;
+  margin-top: 32px;
+}
+
+.banner .banner-image {
+  position: relative;
+}
+
+.banner .banner-image .stat {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(28, 176, 45, 0.3);
+  background-color: #f5fee6;
+  color: #1cb02d;
+  font-family: "gil";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .banner-image .stat {
+  position: absolute;
+  top: 10px;
+  left: 15%;
+}
+
+.top-restaurants {
+  margin-top: 60px;
+}
+
+.top-restaurants .section-title {
+  text-align: center;
+  font-family: "gil";
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.top-restaurants .restaurants {
+  display: flex;
+  justify-content: center;
+}
