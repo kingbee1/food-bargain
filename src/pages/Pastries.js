@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Landingpage/Navbar'
+import TopHeader from '../components/Landingpage/TopHeader'
 import Footer from '../components/Landingpage/Footer'
+import { Link } from 'react-router-dom'
 import bk1 from '../images/bk1.png'
 import bk2 from '../images/bk2.png'
 import bk3 from '../images/bk3.png'
@@ -12,15 +13,17 @@ import bk8 from '../images/bk8.png'
 import bk9 from '../images/bk9.png'
 import Hero from '../components/Hero'
 
-const Bakery = () => {
+
+
+const Pastries = () => {
     return (
         
         <div>
-            <Navbar />
+            <TopHeader />
                 <div className="flex justify-between top-bakery">
-            <p>Home </p>
+            <Link to="/"><p>Home </p></Link>
             <p> > </p>
-            <p>Bakery</p>
+            <p>Pastries</p>
             <p> > </p>
             <p> Bread </p>
             </div>
@@ -139,4 +142,4 @@ const Bakery = () => {
     )
 }
 
-export default Bakery;
+export default Pastries;

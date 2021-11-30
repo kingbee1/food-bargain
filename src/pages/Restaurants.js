@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Landingpage/Footer';
-import Navbar from '../components/Landingpage/Navbar';
+import TopHeader from '../components/Landingpage/TopHeader';
 import rs1 from '../images/rs1.png'
 import bk2 from '../images/bk2.png'
 import bk3 from '../images/bk3.png'
@@ -12,10 +12,11 @@ import bk8 from '../images/bk8.png'
 import bk9 from '../images/bk9.png'
 import Hero from '../components/Hero';
 
+
 const Restaurants = () => {
     return (
         <div>
-            <Navbar />
+            <TopHeader />
             <div className="flex justify-between top-bakery">
         <p>Home </p>
         <p> > </p>

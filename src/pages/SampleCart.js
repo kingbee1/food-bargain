@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Footer from '../components/Landingpage/Footer';
-import Navbar from '../components/Landingpage/Navbar';
- import gr2 from '../images/gr2.png'
+import TopHeader from '../components/Landingpage/TopHeader';
+
+import gr2 from '../images/gr2.png'
 import gr1 from '../images/gr1.png'
 import gr3 from '../images/gr3.png'
 
@@ -48,7 +49,7 @@ function SampleCart() {
 
     return (
         <div>
-        <Navbar cartLength={cart.length} />
+        <TopHeader cartLength={cart.length} />
 
         <header>
             <button>Go to Cart ({cart.length})</button>

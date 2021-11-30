@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Landingpage/Navbar';
+import TopHeader from '../components/Landingpage/TopHeader';
 import Footer from '../components/Landingpage/Footer';
 import { FiMail } from 'react-icons/fi';
 import { FiLock } from 'react-icons/fi';
@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const UserLogin = () => {
     return(
         <div>
-        <Navbar />
+        <TopHeader />
         <div className="login-p">
             <p className="login-p1">Login</p>
             <p className="login-p2">Don’t have an account? <Link to="/signup"><span className="p-green">Create here</span></Link></p>

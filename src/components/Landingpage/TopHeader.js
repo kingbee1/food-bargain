@@ -7,7 +7,7 @@ export default function TopHeader() {
     <>
       <div className="navbar">
         <div className="logo">
-          <img src={require('../../images/logo.png').default} alt="logo" />
+          <Link to="/"><img src={require('../../images/logo.png').default} alt="logo" /></Link>
         </div>
         <div className="searchbar">
           <input type="text" name="search" placeholder="Search food stuff" />
@@ -24,16 +24,12 @@ export default function TopHeader() {
           </div>
           <div className="item">
             <img src={require('../../images/cart.png').default} alt="#" />
-            <Link to="/">Cart</Link>
+            <Link to="/cart">Cart</Link>
           </div>
         </div>
 
       </div>
-      <div className="secondary-links">
-        <Link to="/groceries">Groceries</Link>
-        <Link to="/">Pastries</Link>
-        <Link to="/">Restaurants</Link>
-      </div>
+      
     </>
   )
 }

@@ -1,5 +1,4 @@
 import React , { useState } from 'react'
-import Navbar from '../components/Landingpage/Navbar'
 import Footer from '../components/Landingpage/Footer'
 import gr1 from '../images/gr1.png'
 import gr2 from '../images/gr2.png'
@@ -11,12 +10,13 @@ import gr7 from '../images/flour.png'
 import gr8 from '../images/minimie.png'
 import gr9 from '../images/wine.png'
 import Hero from '../components/Hero'
+import TopHeader from '../components/Landingpage/TopHeader'
 
 
      const Groceries = () => {
     return (
         <div>
-        <Navbar />
+        <TopHeader />
         <div className="flex justify-between top-groceries">
             <p>Home </p>
             <p> > </p>

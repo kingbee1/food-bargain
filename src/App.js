@@ -2,11 +2,12 @@
 import './App.css';
 import Home from './pages/Home';
 import Navbar from './components/Landingpage/Navbar';
+import TopHeader from './components/Landingpage/TopHeader';
 import Content from './components/Landingpage/Content';
 import Hero from './components/Hero';
 import Footer from './components/Landingpage/Footer';
 import Groceries from './pages/Groceries';
-import Bakery from './pages/Bakery';
+import Pastries from './pages/Pastries';
 import Restaurants from './pages/Restaurants';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Usersignup from './pages/UserSignUp';
@@ -27,8 +28,8 @@ function App() {
             <Route path="/groceries">
               <Groceries />
             </Route>
-            <Route path="/bakery">
-              <Bakery />
+            <Route path="/pastries">
+              <Pastries />
             </Route>
             <Route path="/restaurants">
               <Restaurants />

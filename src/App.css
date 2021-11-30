@@ -793,7 +793,35 @@ div.below-nav {
 
 /* NOT FOUND */
 .error {
-  font-family: "gil";
+  margin-top: 50px;
+  text-align: center;
+  font-family: "gil"; 
+}
+
+.error-content {
+  text-align: center;
+  margin: auto;
+  height: 250px;
+  width: 325px;
+  padding-top: 20px;
+  background: #707972;
+}
+
+.error-btn {
+  font-family: 'gil';
+  margin-top: 40px;
+  padding: 12px 20px;
+  background: #1cb02d;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 14px;
+  border: none;
+}
+
+.fat-p {
+  font-size: 60px;
+  margin-bottom: 30px;
+  /* font-family: 'gil'; */
 }
 
 /* SAMPLE */

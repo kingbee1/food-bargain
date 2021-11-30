@@ -11,6 +11,11 @@ const Home = () => {
     return (
         <div className="home-container">
             <TopHeader />
+            <div className="secondary-links">
+                <Link to="/groceries">Groceries</Link>
+                <Link to="/pastries">Pastries</Link>
+                <Link to="/restaurants">Restaurants</Link>
+            </div>
             <div className="content">
                 <div className="banner">
                     <div className="banner-content">

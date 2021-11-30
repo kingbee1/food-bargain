@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Landingpage/Navbar';
 import Footer from '../components/Landingpage/Footer';
 import pizza from '../images/pizza.png'
+import TopHeader from '../components/Landingpage/TopHeader';
 
 const Cart = () => {
     return (
         <div>
-        <Navbar />
+        <TopHeader />
             <div className="border">
                 <p>Cart (3 items)</p>
                 <div>

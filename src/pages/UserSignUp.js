@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Landingpage/Footer';
-import Navbar from '../components/Landingpage/Navbar';
+import TopHeader from '../components/Landingpage/TopHeader';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ const Usersignup = () => {
     
     return (
         <div>
-            <Navbar />
+            <TopHeader />
             <div className="signup">
                 <p className="top-signup">Create an account</p>
                 <p className="small-top">Let’s get you set up so you can begin to enjoy food bargains </p>
