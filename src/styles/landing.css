@@ -83,6 +83,10 @@
   margin-right: 5%;
 }
 
+.secondary-links a:hover {
+  color: #067013;
+}
+
 .banner {
   width: 100%;
   background-color: #fff;
@@ -251,3 +255,77 @@
   color: #f5fee6;
 }
 
+/* carous cards */
+.carous-card{
+  background: #FFF;
+  width: 230px;
+  height: 277px;
+  border-radius: 10px;
+  
+}
+.carou {
+  margin-top: 74px;
+  padding: 12px 12px;
+  background: #f5fee6;
+  font-family: "gil";
+}
+
+/* .carous p {
+  font-weight: 100;
+  font-size: 13px;
+  color: #252522;
+} */
+
+.card-wrap {
+  margin-left: 20px;
+}
+
+.card-wrap:hover {
+  
+}
+
+.carous-p1 {
+  font-family: 'inter';
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  
+}
+
+.carous-green {
+  color: #1cb02d !important;
+  font-family: "gil";
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.carous img {
+  width: 200px;
+  height: 140px;
+  padding-left: 13px;
+  padding-top: 23px;
+  margin-bottom: 15px;
+}
+
+.h-span{
+  color: #FF0000;
+  width: 49px;
+  height: 18px;
+  left: 164px;
+  top: 240px;
+  background: rgba(255, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.h-span-p {
+  font-size: 14px;
+  font-weight: 400;
+  }
+
+.span {
+  text-decoration: line-through;
+  font-family: 'inter';
+  font-size: 14px;;
+  font-weight: 100;
+  
+}

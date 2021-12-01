@@ -81,7 +81,7 @@ const Content = () => {
                         <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-33</p></div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div> 
-    <div className="flex">
+                    <div className="flex">
                     <div>
                         <img src={food4} alt="food" />
                         <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>

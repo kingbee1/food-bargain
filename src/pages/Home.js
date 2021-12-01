@@ -82,11 +82,74 @@ const Home = () => {
                         <img src={require('../images/babyfood.png').default} alt="big baby" />
                     </div>
                     <div className="reward2">
-                    <p className="r2">Members get <span className="p-green">exclusive</span> rewards</p>
-                    <p className="r3">Become a member and get even more food for less.</p>
-                    <Link to="/signup"><button className="btn">Sign up Now</button></Link>
-                </div>
+                        <p className="r2">Members get <span className="p-green">exclusive</span> rewards</p>
+                        <p className="r3">Become a member and get even more food for less.</p>
+                        <Link to="/signup"><button className="btn">Sign up Now</button></Link>
+                    </div>
                 </section>
+
+
+                <div className="carou">
+                    <p className="title"> Oops! You just missed it</p>
+                    <div className="carous flex justify-between">
+                        <div className="carous-card">                           
+                            <img src={require ('../../src/images/banana.png').default} alt="food" />  
+                            <div className="card-wrap">                       
+                            <p className="carous-p1">Bananas(1 Bunch)</p>
+                            <p className="carous-green">NGN 600</p>
+                            <div className="flex justify-between">
+                            <p className="span">NGN 2,500</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="carous-card">
+                            <img src={require('../../src/images/cornflakes.png').default} alt="cornflakes" />
+                            <div className="card-wrap">
+                                <p className="carous-p1">Nasco CornFlakes(350g)</p>
+                                <p className="carous-green">NGN  1,450</p>
+                                <div className="flex justify-between">
+                                <p className="span">NGN 1,240</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="carous-card">
+                            <img src={require('../../src/images/oreos.png').default} alt="oreos" />
+                            <div className="card-wrap">
+                                <p className="carous-p1">Oreos Cookies</p>
+                                <p className="carous-green">NGN 1,150</p>
+                                <div className="flex justify-between">
+                                    <p className="span">NGN 950</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                        <div className="carous-card">
+                            <img src={require('../../src/images/wine.png').default} alt="wine" />
+                            <div className="card-wrap">
+                                <p className="carous-p1">Pure Haven Wine</p>
+                                <p className="carous-green">NGN 5,450</p>
+                                <div className="flex justify-between">
+                                <p className="span">NGN 2,800</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="carous-card">
+                            <img src={require('../../src/images/semo.png').default} alt="semo" />
+                            <div className="card-wrap">
+                                <p className="carous-p1">Golden Penny Semovita</p>
+                                <p className="carous-green">NGN 1,299</p>
+                                <div className="flex justify-between">
+                                <p className="span">NGN 650</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>   
+
 
             </div>
             <Footer />

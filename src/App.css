@@ -242,24 +242,7 @@ div.below-nav {
   color: #f5fee6;
 }
  */
-.carou {
-  margin-top: 74px;
-  padding: 12px 12px;
-  background: #f5fee6;
-  font-family: "gil";
-}
 
-.carous p {
-  font-weight: 100;
-  font-size: 13px;
-  color: #252522;
-}
-
-.span {
-  text-decoration: line-through;
-  font-size: 10px;
-  color: red;
-}
 
 .blog {
   margin-top: 74px;
@@ -801,7 +784,7 @@ div.below-nav {
 .error-content {
   text-align: center;
   margin: auto;
-  height: 250px;
+  height: 300px;
   width: 325px;
   padding-top: 20px;
   background: #707972;
@@ -816,12 +799,18 @@ div.below-nav {
   border-radius: 16px;
   font-size: 14px;
   border: none;
+  cursor: pointer;
 }
 
 .fat-p {
   font-size: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   /* font-family: 'gil'; */
+}
+
+.fat-pp {
+  font-size: 25px;
+  margin-bottom: 35px;
 }
 
 /* SAMPLE */
