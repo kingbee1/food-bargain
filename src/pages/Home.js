@@ -1,11 +1,13 @@
-import React from 'react';
+//import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Landingpage/Footer';
 import Navbar from '../components/Landingpage/Navbar';
 import TopHeader from '../components/Landingpage/TopHeader';
 import Content from '../components/Landingpage/Content';
 import '../styles/landing.css';
+import { useState } from 'react';
 
+//const [style, setStyle] = useState({display: 'none'});
 
 const Home = () => {
     return (
@@ -50,18 +52,19 @@ const Home = () => {
                         <Link to="/" className="restaurant">
                             <img src={require('../images/theplace.png').default} alt="" />
                         </Link>
-                        <Link to="/" className="restaurant">
+                        {/* <Link to="/" className="restaurant">
                             <img src={require('../images/mamacass.png').default} alt="" />
-                        </Link>
+                        </Link> */}
                     </div>
                 </section>
 
                 <section className="top-cards">
-                    <h2 className="section-title">Take a Look at these</h2>
+                    <h2 className="section-title">Take a look at these</h2>
                     <div className="item-cards">
                         <Link to="/" className="item-card">
                             <img src={require('../images/stirfry.png').default} alt="stir fry" />
                         </Link>
+                        
                         <Link to="/" className="item-card">
                             <img src={require('../images/Vegitable soup.png').default} alt="efo" />
                         </Link>
@@ -95,11 +98,11 @@ const Home = () => {
                         <div className="carous-card">                           
                             <img src={require ('../../src/images/banana.png').default} alt="food" />  
                             <div className="card-wrap">                       
-                            <p className="carous-p1">Bananas(1 Bunch)</p>
-                            <p className="carous-green">NGN 600</p>
-                            <div className="flex justify-between">
-                            <p className="span">NGN 2,500</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
-                            </div>
+                                <p className="carous-p1">Bananas(1 Bunch)</p>
+                                <p className="carous-green">NGN 600</p>
+                                <div className="flex justify-between">
+                                <p className="span">NGN 2,500</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
+                                </div>
                             </div>
                         </div>
 
@@ -146,9 +149,62 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div> 
-                </div>   
+                </div> 
+
+                <div className="blog flex justify-between">
+                    <div>
+                        <p className="blog1">Food Bargains <span className="p-green">blog</span></p>
+                        <p className="blog2">Specially curated and relevant stories on food waste management and its environmental impacts to keep you quite as committed as we are to the fight against food waste. </p>
+                        <p className="blog3 p-green">Check it out >>> </p>
+                    </div>
+                    <div>
+                        <div className="test"></div>
+                        <div className="test2"></div>
+                        <div className="blog-right">
+                        <img src={require('../../src/images/babyfood.png').default} alt="wine" />  
+                        <p className="right1">Saving the world, ojjne meal at a time</p>
+                    </div>
+                    </div>
+                </div>  
+
+                <div className="base-container">
+                    <p className="fight">Look what our food fighters have to say</p>
+                    <div className="flex justify-between">
+                        <div className="fight1">
+                            <img src={require('../images/fight1.png').default} alt="stir fry" />
+                            <p className="fight-p">“Food Bargains literally has the best food deals!”</p>
+                            <p className="center">Suso</p>
+                        </div>
+                        <div className="fight2">
+                            <img src={require('../images/fight1.png').default} alt="stir fry" />
+                            <p className="fight-p">“Offering quality food for less is a super hero act.”</p>
+                            <p className="center">Suso</p>
+                        </div>
+                        <div className="fight3">
+                            <img src={require('../images/fight1.png').default} alt="stir fry" />
+                            <p className="fight-p">“Dining at a restaurant on a budget is unmatched!”</p>
+                            <p className="center">Suso</p>
+                        </div>
+                        <div className="fight4">
+                            <img src={require('../images/fight1.png').default} alt="stir fry" />
+                            <p className="fight-p">“Food from my business all gets sold out now.”</p>
+                            <p className="center">Suso</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                <div className="community">
+                <p className="community-p">Join our community</p>
+                <p className="community-p2">Sign up to be the first to get exclusive deals, personalised offers and knowledge you need to successfully manage food waste and save the environment.</p>
+                <div className="join flex justify-between">
+                    <input className="join-search" type="text" placeholder="Enter your email address" />
+                    <button className="join-btn">Subscribe</button>
+                </div>
+                </div>
+
 
 
             </div>

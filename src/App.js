@@ -16,11 +16,14 @@ import NotFound from './pages/NotFound';
 import UserLogin from './pages/UserLogin';
 import SampleCart from './pages/SampleCart';
 
+
 function App() {
   return (
+   
     <Router>
       <div className="App">
         <div className="Content">
+ 
           <Switch>
             <Route exact path="/">
               <Home />

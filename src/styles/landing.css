@@ -1,3 +1,8 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+}
+
 .home-container {
   background: #fbfff5;
 }
@@ -84,7 +89,8 @@
 }
 
 .secondary-links a:hover {
-  color: #067013;
+  color: #0F6018;
+  font-family: 'gil';
 }
 
 .banner {
@@ -179,14 +185,23 @@
 
 .top-restaurants {
   margin-top: 60px;
+  width: 100%;
+  
 }
+
+/* .top-restaurants img {
+  width: 200px;
+  height: 140px;
+} */
 
 .top-restaurants .section-title {
   text-align: center;
   font-family: "gil";
-  font-size: 28px;
+  font-size: 20px;
   margin-bottom: 18px;
 }
+
+
 
 .top-restaurants .restaurants {
   display: flex;
@@ -197,7 +212,9 @@
 
 .top-cards {
   margin-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
+  background: #f5fee6;
+
 }
 
 .top-cards .section-title {
@@ -205,6 +222,16 @@
   font-family: "gil";
   font-size: 28px;
   margin-bottom: 18px;
+}
+
+.top-cards .item-cards img {
+  width: 200px;
+  height: 140px;
+  padding-left: 13px;
+  padding-top: 23px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .top-cards .item-cards {
@@ -256,18 +283,28 @@
 }
 
 /* carous cards */
+
+.carou {
+  margin-top: 74px;
+  padding: 38px 12px;
+  background: #f5fee6;
+  font-family: "gil";
+  
+}
+
+.title{
+  text-align: center;
+  font-family: 'gil';
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
 .carous-card{
   background: #FFF;
   width: 230px;
   height: 277px;
   border-radius: 10px;
   
-}
-.carou {
-  margin-top: 74px;
-  padding: 12px 12px;
-  background: #f5fee6;
-  font-family: "gil";
 }
 
 /* .carous p {
@@ -294,10 +331,11 @@
 }
 
 .carous-green {
-  color: #1cb02d !important;
+  color:#0F6018;
   font-family: "gil";
-  font-size: 20px;
+  font-size: 22px;
   line-height: 25px;
+  margin-bottom: 8px;
 }
 
 .carous img {
@@ -328,4 +366,226 @@
   font-size: 14px;;
   font-weight: 100;
   
+}
+
+/* blog thing */
+
+.blog {
+  margin-top: 74px;
+  padding: 29px 72px;
+  background: #F5FEE6;
+  box-shadow: 0px 0px 15px rgba(15, 96, 24, 0.2);
+  border-radius: 10px;
+  width: 76%;
+  margin-left: 80px;
+}
+
+.blog1 {
+  font-family: "gil";
+  font-size: 39px;
+  padding-bottom: 10px;
+}
+
+.blog2 {
+  font-family: "inter";
+  font-size: 15px;
+  font-weight: 400;
+  width: 39%;
+  padding-bottom: 16px;
+}
+
+.blog3 {
+  font-family: "gil";
+  font-size: 16px;
+}
+
+.blog-right {
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  background: #116e1c;
+  border-radius: 11px;
+}
+
+.test {
+  width: 84%;
+  margin: auto;
+  padding: 4px;
+  background: #dbebdc;
+  border-radius: 2px;
+}
+.test2 {
+  width: 90%;
+  margin: auto;
+  padding: 4px;
+  background: #a5d3aa;
+  border-radius: 2px;
+}
+
+.blog-right img {
+  width: 190px;
+}
+
+
+.right1 {
+  font-family: "gil";
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* headless chicken */
+
+.base-container {
+  margin-left: 35px;
+  padding-left: 10px;
+  margin-right: 35px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.fight {
+  font-family: "gil";
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.fight-p {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+
+.fight1 {
+  /* background: #eeff92; */
+  width: 204px;
+  height: 206px;
+  margin-right: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 2px 4px #f1f0f0;
+  background: rgba(167, 241, 175, 0.5);
+  border-radius: 10px;
+}
+
+.fight1 img {
+  margin: auto;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.fight2 {
+  width: 204px;
+  height: 206px;
+  background: #F5FEE6;
+  margin-right: 35px;
+  border-radius: 10px;
+  /* box-shadow: 5px 10px 2px 4px #f1f0f0; */
+}
+
+.fight2 img {
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.fight3 {
+  width: 204px;
+  height: 206px;
+  margin-right: 35px;
+  border-radius: 10px;
+  background: rgba(167, 241, 175, 0.5);
+  border-radius: 10px;
+}
+.fight3 img {
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.fight4 {
+  width: 204px;
+  height: 206px;
+  background: #F5FEE6;
+  border-radius: 10px;
+  /* box-shadow: 5px 10px 2px 4px #f1f0f0; */
+}
+
+.fight4 img {
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+/* community shii */
+
+.community {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* background-image: url("/public/images/Logo.png"); */
+  background-color: #1cb02d;
+  padding-bottom: 30px;
+  padding-top: 25px;
+  margin-right: 80px;
+  margin-left: 80px;
+  border-radius: 20px;
+}
+.community-p {
+  text-align: center;
+  font-family: "gil";
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.community-p2 {
+  text-align: center;
+  margin: auto;
+  font-family: "inter";
+  font-size: 14px;
+  line-height: 19px;
+  width: 42%;
+  font-weight: 600;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.join {
+  width: 41%;
+  margin: auto;
+}
+
+.join-search {
+  border: none;
+  font-family: "inter";
+  font-size: 12px;
+  font-weight: 600;
+  padding: 9px 39px;
+  border-radius: 11px;
+  color: #77776e;
+}
+
+/* .join-search ::placeholder{
+  font-family: 'inter';
+  font-size: 44px;
+}  */
+
+.join-btn {
+  background: #feb434;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 9px 52px;
+  border-radius: 11px;
+  font-family: "gil";
+  color: #f5fee6;
 }

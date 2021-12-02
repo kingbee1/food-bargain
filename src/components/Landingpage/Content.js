@@ -102,7 +102,7 @@ const Content = () => {
                     <div className="blog-right">
                     <img src={food1} alt="bargains" />    
                     <p className="right1">Saving the world, one meal at a time</p>
-                    </div>
+                </div>
                 </div>
             </div>
  </div>

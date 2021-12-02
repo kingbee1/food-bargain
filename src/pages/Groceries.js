@@ -11,6 +11,7 @@ import gr8 from '../images/minimie.png'
 import gr9 from '../images/wine.png'
 import Hero from '../components/Hero'
 import TopHeader from '../components/Landingpage/TopHeader'
+import '../styles/landing.css';
 
 
      const Groceries = () => {
@@ -56,57 +57,64 @@ import TopHeader from '../components/Landingpage/TopHeader'
                     </div >
 
                     <div className="Groc-pic flex justify-between">
-                        <div>
+                    <div>
                         <img src={gr1} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
-                        <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
+                        <div className="flex justify-between">
+                        <p>Ban Fry Noodles</p> </div>
+                        <div className="flex justify-between">
+                            <p className="span">NGN 2,500</p> <div className="h-span"><p className="h-span-p">-44%</p></div>
+                        </div>
+
+                            
+
+
                     </div>   
             
                     <div>
                         <img src={gr2} alt="food" />
-                        <div className="flex justify-between"><p>Oreos</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Oreos</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
 
                     <div>
                         <img src={gr3} alt="food" />
-                        <div className="flex justify-between"><p>Onions</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Onions</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
 
                     <div>
                         <img src={gr4} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
 
                     <div className = "gr5">
                         <img src={gr5} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
 
                     <div>
                         <img src={gr6} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
 
                     <div>
                         <img src={gr7} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
 
                     <div>
                         <img src={gr8} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
 
                     <div>
                         <img src={gr9} alt="food" />
-                        <div className="flex justify-between"><p>Stir Fry Noodles</p> <p>-16</p></div>
+                        <div className="flex justify-between"><p>Stir Fry Noodles</p> </div>
                         <p>N 5,400 &emsp;<span className="span">NGN 2,500</span></p>
                     </div>
                 </div>
